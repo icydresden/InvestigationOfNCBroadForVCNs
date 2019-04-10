@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Jul 18 17:17:18 2018 by SUMO Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="straight.net.xml"/>
+        <route-files value="straight.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="sumoTrace.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="59265"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="straight.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="carflow12.0" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="417.68" y="77.32" angle="270.00" type="CarB" speed="0.00" pos="7.60" lane="edge21_0" slope="0.00"/>
+    </timestep>
+</fcd-export>

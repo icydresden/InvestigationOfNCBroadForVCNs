@@ -1,0 +1,11 @@
+<routes>
+	<vType id="normalCar" vClass="passenger" maxSpeed="40" speedFactor="0.9" speedDev="0.2" sigma="0.5" />
+	<vType id="sportyCar" vClass="passenger" maxSpeed="60" speedFactor="1.3" speedDev="0.1" sigma="0.1" />
+	<vType id="trailer" vClass="trailer" maxSpeed="30" speedFactor="1.1" speedDev="0.1" />
+	<vType id="coach"  vClass="coach" maxSpeed="30" speedFactor="1." speedDev="0.1" />
+
+	<flow id="normal" type="normalCar" begin="0" end="0" number="5" from="entry" to="exit" departPos="last" departLane="best" color="1,0.6,0.7"/>
+	<flow id="sporty" type="sportyCar" begin="0" end="0" number="3" from="entry" to="exit" departPos="last" departLane="best" color="1,0,1"/>
+	<flow id="coach" type="coach" begin="0" end="0" number="3" from="entry" to="exit" departPos="last" departLane="best" color="0,0,1"/>
+	<flow id="trailer" type="trailer" begin="0" end="0" number="7" from="entry" to="exit" departPos="last" departLane="best" color="0,1,0"/>
+</routes>

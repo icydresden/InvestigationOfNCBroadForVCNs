@@ -1,0 +1,6 @@
+<configuration>
+	<input>
+		<net-file value="sumolympic.net.xml"/>
+		<route-files value="sumolympic.rou.xml,sumolympicWalkers.rou.xml"/>
+	</input>
+</configuration>

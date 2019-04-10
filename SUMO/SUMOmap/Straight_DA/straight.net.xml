@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mo 16 Jul 2018 14:56:27 CEST by Netedit Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/lab/Desktop/SUMOmap/DA_Straight/straight.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/lab/Desktop/SUMOmap/DA_Straight/straight.net.xml"/>
+    </output>
+
+    <processing>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+        <rectangular-lane-cut value="false"/>
+        <walkingareas value="false"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-330.52,75.67,425.28,75.67" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="edge12" from="node1" to="node2" priority="1">
+        <lane id="edge12_0" index="0" speed="13.89" length="755.80" shape="-330.52,74.02 425.28,74.02"/>
+    </edge>
+    <edge id="edge21" from="node2" to="node1" priority="1">
+        <lane id="edge21_0" index="0" speed="13.89" length="755.80" shape="425.28,77.32 -330.52,77.32"/>
+    </edge>
+
+    <junction id="node1" type="dead_end" x="-330.52" y="75.67" incLanes="edge21_0" intLanes="" shape="-330.52,75.62 -330.52,78.92 -330.52,75.72"/>
+    <junction id="node2" type="dead_end" x="425.28" y="75.67" incLanes="edge12_0" intLanes="" shape="425.28,75.72 425.28,72.42 425.28,75.62"/>
+
+</net>

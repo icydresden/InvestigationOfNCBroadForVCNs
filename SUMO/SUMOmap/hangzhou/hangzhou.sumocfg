@@ -1,0 +1,13 @@
+<!---->
+<configuration>
+	<input>
+		<net-file value="hangzhou.net.xml"/>
+		<route-files value="hangzhou.rou.xml"/>
+		<additional-files value="hangzhou.poly.xml"/>
+	</input>
+	<time>
+		<begin value="0"/>
+		<end value="400"/>
+		<step-length value="0.1"/>
+	</time>
+</configuration>

@@ -1,0 +1,13 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<configuration >
+	<input>
+		<net-file value="circles.net.xml"/>
+		<route-files value="circles.rou.xml"/>
+		<!--additional-files value="circles.add.xml"/-->
+		
+	</input>
+	<time>
+		<begin value="0"/>
+		<end value="300"/>
+	</time>
+</configuration>

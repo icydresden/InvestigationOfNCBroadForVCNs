@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<input>
+		<net-file value="straight.net.xml" />
+		<route-files value="straight.rou.xml" />
+		<gui-settings-file value="straight.settings.xml" />
+	</input>
+	<time>
+		<begin value="0" />
+		<end value="100" />
+	</time>
+</configuration>

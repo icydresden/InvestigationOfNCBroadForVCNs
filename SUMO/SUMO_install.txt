@@ -1,0 +1,155 @@
+# draft
+
+# install & configure SUMO 
+
+#install SUMO
+$ sudo add-apt-repository ppa:sumo/stable
+$ sudo apt-get update
+$ sudo apt-get install sumo sumo-tools sumo-doc
+
+#export SUMO_HOME
+$ gedit ~/.bash_profile
+
+-------------------------------- 	
+export SUMO_HOME=/usr/share/sumo
+--------------------------------
+
+#get necessary files
+#tutorial
+https://www.youtube.com/watch?v=48N_BCeDFkI&t=520s
+
+#Open Street Map
+https://www.openstreetmap.de/
+
+$ cd ~/dresden_file
+$ netconvert --osm-files dresden.osm -o dresden.net.xml
+$ cp $SUMO_HOME/data/typemap/osmPolyconvert.typ.xml ~/dresden_file
+
+$ polyconvert --osm-files dresden.osm --net-file dresden.net.xml --type-file osmPolyconvert.typ.xml -o dresden.poly.xml
+
+$ ls
+-----------------------------------
+dresden.net.xml  dresden.osm  
+dresden.poly.xml  osmPolyconvert.typ.xml
+-----------------------------------
+
+
+$ python3 $SUMO_HOME/tools/randomTrips.py -n dresden.net.xml -e 100 -l
+or 
+$ python3 $SUMO_HOME/tools/randomTrips.py -n dresden.net.xml -r dresden.rou.xml -e 100 -l 
+$ ls
+-----------------------------------
+dresden.net.xml  dresden.poly.xml     dresden.rou.xml         trips.trips.xml
+dresden.osm      dresden.rou.alt.xml  osmPolyconvert.typ.xml
+-----------------------------------
+
+$ gedit dresden.sumocfg
+---------------
+<configuration>
+	<input>
+		<net-file value="dresden.net.xml"/>
+		<route-files value="dresden.rou.xml"/>
+		<additional-files value="dresden.poly.xml"/>
+	</input>
+	<time>
+		<begin value="0"/>
+		<end value="100"/>
+		<step-length value="0.1"/>
+	</time>
+</configuration>
+---------------
+
+
+#ns3config/ns3mobility/ns3activity-output sind not available
+$ sumo -c dresden.sumocfg --fcd-output dresden.sumo.xml
+$ python3 $SUMO_HOME/tools/traceExporter.py --fcd-input dresden.sumo.xml --ns2config-output dresden.tcl --ns2mobility-output mobility.tcl --ns2activity-output activity.tcl
+
+$ ls
+------------------
+activity.tcl     dresden.poly.xml     dresden.sumocfg   mobility.tcl
+dresden.net.xml  dresden.rou.alt.xml  dresden.sumo.xml  osmPolyconvert.typ.xml
+dresden.osm      dresden.rou.xml      dresden.tcl       trips.trips.xml
+------------------
+
+
+
+#############
+Warning: Environment variable SUMO_HOME is not set, using built in type maps.
+Warning: Environment variable SUMO_HOME is not set, schema resolution will use slow website lookups.
+Warning: Found sharp turn with radius 8.13 at the end of edge '252040686#2'.
+Success.
+##
+#
+2) polyconvert --osm-files vanet.osm --net-file vanet.net.xml --type-file osmPolyconvert.typ.xml -o vanet.poly.xml
+3) python /usr/
+
+# what is Tcl and its theoriy
+http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/A2-Tcl/Tcl-1-vars.html
+
+
+
+Download MOVE.jar from the following link
+http://lens1.csie.ncku.edu.tw/MOVE/download.php
+
+Execute the following command to run the MOVE.jar file
+java -jar MOVE.jar (Java required)
+
+# install Java OSM
+https://josm.openstreetmap.de/wiki/Download
+
+
+$ sudo editor /etc/apt/sources.list
+####
+add one of the following lines according to your Ubuntu-Version:
+
+deb https://josm.openstreetmap.de/apt trusty universe
+deb https://josm.openstreetmap.de/apt xenial universe
+deb https://josm.openstreetmap.de/apt artful universe
+# For other Debian based distributions add:
+deb https://josm.openstreetmap.de/apt alldist universe
+#####
+
+# Download and register the public key:
+$ wget -q https://josm.openstreetmap.de/josm-apt.key -O- | sudo apt-key add -
+$ sudo apt-get update
+# install JOSM
+$ sudo apt-get remove josm josm-plugins
+$ sudo apt-get install josm 
+$ sudo apt-get install josm-latest
+
+
+
+#http://wsnlab.org/using-sumos-trace-files-with-ns3-in-ubuntu-12-04/
+First, copy the example file to the scratch directory:
+
+$ cd ~/Applications/ns-allinone-3.14.1/ns-3.14.1
+$ cp -v examples/mobility/ns2-mobility-trace.cc scratch/
+
+Then, open it up with your favorite text editor. If in doubt, use gedit:
+
+$ gedit scratch/ns2-mobility-trace.cc
+
+And add the following lines:
+
+#include "ns3/netanim-module.h"
+
+Bellow the line ‘#include "ns3/ns2-mobility-helper.h"‘, and:
+
+AnimationInterface anim ("animation.xml");
+
+Above the line ‘Simulator::Stop (Seconds (duration));‘.
+
+Now, execute the simulation, with the command:
+
+$ ./waf --run "ns2-mobility-trace --traceFile=$HOME/example/mobility.tcl --nodeNum=150 --duration=90.0 --logFile=$HOME/example/main-ns2-mob.log"
+
+NetAnim:
+
+And now, to see the simulation result, use the application NetAnim, with the trace xml created in the simulation:
+
+$ cd ~/Applications/ns-allinone-3.14.1/netanim-3.100/
+$ ./NetAnim
+
+Click on the “Open xml trace file” button, and select the file animation.xml, inside the ns-3.14.1directory. You should see something like this:
+
+

@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Jul 16 17:01:45 2018 by SUMO Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="straight.net.xml"/>
+        <route-files value="straight.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="straight.sumoTrace.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="straight.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="carflow12.0" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="417.68" y="77.32" angle="270.00" type="CarB" speed="0.00" pos="7.60" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.00">
+        <vehicle id="carflow12.0" x="-323.76" y="74.02" angle="90.00" type="CarA" speed="1.66" pos="6.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="416.39" y="77.32" angle="270.00" type="CarB" speed="1.29" pos="8.89" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.00">
+        <vehicle id="carflow12.0" x="-319.16" y="74.02" angle="90.00" type="CarA" speed="4.60" pos="11.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="413.60" y="77.32" angle="270.00" type="CarB" speed="2.80" pos="11.68" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.00">
+        <vehicle id="carflow12.0" x="-312.45" y="74.02" angle="90.00" type="CarA" speed="6.71" pos="18.07" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="408.84" y="77.32" angle="270.00" type="CarB" speed="4.75" pos="16.44" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="4.00">
+        <vehicle id="carflow12.0" x="-303.86" y="74.02" angle="90.00" type="CarA" speed="8.60" pos="26.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-322.79" y="74.02" angle="90.00" type="CarA" speed="2.63" pos="7.73" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="402.64" y="77.32" angle="270.00" type="CarB" speed="6.21" pos="22.64" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="417.68" y="77.32" angle="270.00" type="CarB" speed="0.00" pos="7.60" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.00">
+        <vehicle id="carflow12.0" x="-293.38" y="74.02" angle="90.00" type="CarA" speed="10.48" pos="37.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-317.17" y="74.02" angle="90.00" type="CarA" speed="5.62" pos="13.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="395.10" y="77.32" angle="270.00" type="CarB" speed="7.53" pos="30.18" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="416.15" y="77.32" angle="270.00" type="CarB" speed="1.53" pos="9.13" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.00">
+        <vehicle id="carflow12.0" x="-280.58" y="74.02" angle="90.00" type="CarA" speed="12.80" pos="49.94" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-309.40" y="74.02" angle="90.00" type="CarA" speed="7.77" pos="21.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-324.77" y="74.02" angle="90.00" type="CarA" speed="0.65" pos="5.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="385.63" y="77.32" angle="270.00" type="CarB" speed="9.47" pos="39.65" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="413.49" y="77.32" angle="270.00" type="CarB" speed="2.66" pos="11.79" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.00">
+        <vehicle id="carflow12.0" x="-267.17" y="74.02" angle="90.00" type="CarA" speed="13.41" pos="63.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-299.66" y="74.02" angle="90.00" type="CarA" speed="9.74" pos="30.86" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-321.19" y="74.02" angle="90.00" type="CarA" speed="3.58" pos="9.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="374.67" y="77.32" angle="270.00" type="CarB" speed="10.96" pos="50.61" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="409.14" y="77.32" angle="270.00" type="CarB" speed="4.35" pos="16.14" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.00">
+        <vehicle id="carflow12.0" x="-254.23" y="74.02" angle="90.00" type="CarA" speed="12.94" pos="76.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-288.32" y="74.02" angle="90.00" type="CarA" speed="11.34" pos="42.20" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-315.85" y="74.02" angle="90.00" type="CarA" speed="5.34" pos="14.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="362.59" y="77.32" angle="270.00" type="CarB" speed="12.07" pos="62.69" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="403.18" y="77.32" angle="270.00" type="CarB" speed="5.95" pos="22.10" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="417.68" y="77.32" angle="270.00" type="CarB" speed="0.00" pos="7.60" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.00">
+        <vehicle id="carflow12.0" x="-241.16" y="74.02" angle="90.00" type="CarA" speed="13.07" pos="89.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-274.79" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="55.73" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-307.56" y="74.02" angle="90.00" type="CarA" speed="8.29" pos="22.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-323.66" y="74.02" angle="90.00" type="CarA" speed="1.76" pos="6.86" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="349.47" y="77.32" angle="270.00" type="CarB" speed="13.13" pos="75.81" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="395.39" y="77.32" angle="270.00" type="CarB" speed="7.80" pos="29.89" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="416.64" y="77.32" angle="270.00" type="CarB" speed="1.04" pos="8.64" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.00">
+        <vehicle id="carflow12.0" x="-227.31" y="74.02" angle="90.00" type="CarA" speed="13.85" pos="103.21" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-261.92" y="74.02" angle="90.00" type="CarA" speed="12.86" pos="68.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-296.76" y="74.02" angle="90.00" type="CarA" speed="10.80" pos="33.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-319.10" y="74.02" angle="90.00" type="CarA" speed="4.56" pos="11.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="335.70" y="77.32" angle="270.00" type="CarB" speed="13.76" pos="89.58" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="386.00" y="77.32" angle="270.00" type="CarB" speed="9.38" pos="39.28" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="414.56" y="77.32" angle="270.00" type="CarB" speed="2.08" pos="10.72" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.00">
+        <vehicle id="carflow12.0" x="-213.82" y="74.02" angle="90.00" type="CarA" speed="13.49" pos="116.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-248.37" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="82.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-283.21" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="47.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-312.39" y="74.02" angle="90.00" type="CarA" speed="6.71" pos="18.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="322.06" y="77.32" angle="270.00" type="CarB" speed="13.65" pos="103.22" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="375.43" y="77.32" angle="270.00" type="CarB" speed="10.57" pos="49.85" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="410.57" y="77.32" angle="270.00" type="CarB" speed="3.99" pos="14.71" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.00">
+        <vehicle id="carflow12.0" x="-200.93" y="74.02" angle="90.00" type="CarA" speed="12.89" pos="129.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-235.55" y="74.02" angle="90.00" type="CarA" speed="12.82" pos="94.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-270.22" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="60.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-303.72" y="74.02" angle="90.00" type="CarA" speed="8.67" pos="26.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-323.82" y="74.02" angle="90.00" type="CarA" speed="1.60" pos="6.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="309.13" y="77.32" angle="270.00" type="CarB" speed="12.93" pos="116.15" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="363.17" y="77.32" angle="270.00" type="CarB" speed="12.26" pos="62.11" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="405.07" y="77.32" angle="270.00" type="CarB" speed="5.50" pos="20.21" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="417.68" y="77.32" angle="270.00" type="CarB" speed="0.00" pos="7.60" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.00">
+        <vehicle id="carflow12.0" x="-187.91" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="142.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-221.91" y="74.02" angle="90.00" type="CarA" speed="13.64" pos="108.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-257.76" y="74.02" angle="90.00" type="CarA" speed="12.46" pos="72.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-292.33" y="74.02" angle="90.00" type="CarA" speed="11.39" pos="38.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-320.19" y="74.02" angle="90.00" type="CarA" speed="3.63" pos="10.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="295.39" y="77.32" angle="270.00" type="CarB" speed="13.74" pos="129.89" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="349.30" y="77.32" angle="270.00" type="CarB" speed="13.86" pos="75.98" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="397.85" y="77.32" angle="270.00" type="CarB" speed="7.22" pos="27.43" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="416.23" y="77.32" angle="270.00" type="CarB" speed="1.45" pos="9.05" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.00">
+        <vehicle id="carflow12.0" x="-175.41" y="74.02" angle="90.00" type="CarA" speed="12.50" pos="155.11" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-208.12" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="122.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-244.14" y="74.02" angle="90.00" type="CarA" speed="13.62" pos="86.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-279.93" y="74.02" angle="90.00" type="CarA" speed="12.40" pos="50.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-314.02" y="74.02" angle="90.00" type="CarA" speed="6.16" pos="16.50" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="281.84" y="77.32" angle="270.00" type="CarB" speed="13.55" pos="143.44" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="335.50" y="77.32" angle="270.00" type="CarB" speed="13.80" pos="89.78" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="389.20" y="77.32" angle="270.00" type="CarB" speed="8.65" pos="36.08" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="412.98" y="77.32" angle="270.00" type="CarB" speed="3.25" pos="12.30" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.00">
+        <vehicle id="carflow12.0" x="-161.79" y="74.02" angle="90.00" type="CarA" speed="13.62" pos="168.73" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-194.30" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="136.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-230.37" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="100.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-267.12" y="74.02" angle="90.00" type="CarA" speed="12.81" pos="63.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-305.39" y="74.02" angle="90.00" type="CarA" speed="8.64" pos="25.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-322.86" y="74.02" angle="90.00" type="CarA" speed="2.56" pos="7.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="268.16" y="77.32" angle="270.00" type="CarB" speed="13.68" pos="157.12" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="322.29" y="77.32" angle="270.00" type="CarB" speed="13.21" pos="102.99" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="378.97" y="77.32" angle="270.00" type="CarB" speed="10.23" pos="46.31" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="408.35" y="77.32" angle="270.00" type="CarB" speed="4.63" pos="16.93" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.00">
+        <vehicle id="carflow12.0" x="-148.49" y="74.02" angle="90.00" type="CarA" speed="13.31" pos="182.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-181.18" y="74.02" angle="90.00" type="CarA" speed="13.12" pos="149.34" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-217.72" y="74.02" angle="90.00" type="CarA" speed="12.65" pos="112.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-254.11" y="74.02" angle="90.00" type="CarA" speed="13.01" pos="76.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-294.38" y="74.02" angle="90.00" type="CarA" speed="11.01" pos="36.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-317.84" y="74.02" angle="90.00" type="CarA" speed="5.02" pos="12.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="255.25" y="77.32" angle="270.00" type="CarB" speed="12.91" pos="170.03" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="308.42" y="77.32" angle="270.00" type="CarB" speed="13.87" pos="116.86" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="367.05" y="77.32" angle="270.00" type="CarB" speed="11.93" pos="58.23" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="401.82" y="77.32" angle="270.00" type="CarB" speed="6.53" pos="23.46" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="417.68" y="77.32" angle="270.00" type="CarB" speed="0.00" pos="7.60" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.00">
+        <vehicle id="carflow12.0" x="-135.91" y="74.02" angle="90.00" type="CarA" speed="12.58" pos="194.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-168.23" y="74.02" angle="90.00" type="CarA" speed="12.95" pos="162.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-205.21" y="74.02" angle="90.00" type="CarA" speed="12.50" pos="125.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-240.96" y="74.02" angle="90.00" type="CarA" speed="13.15" pos="89.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-281.12" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="49.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-310.89" y="74.02" angle="90.00" type="CarA" speed="6.95" pos="19.63" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-325.36" y="74.02" angle="90.00" type="CarA" speed="0.06" pos="5.16" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="242.23" y="77.32" angle="270.00" type="CarB" speed="13.02" pos="183.05" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="295.11" y="77.32" angle="270.00" type="CarB" speed="13.32" pos="130.17" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="354.13" y="77.32" angle="270.00" type="CarB" speed="12.92" pos="71.15" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="393.59" y="77.32" angle="270.00" type="CarB" speed="8.23" pos="31.69" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="416.09" y="77.32" angle="270.00" type="CarB" speed="1.59" pos="9.19" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.00">
+        <vehicle id="carflow12.0" x="-122.54" y="74.02" angle="90.00" type="CarA" speed="13.38" pos="207.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-155.39" y="74.02" angle="90.00" type="CarA" speed="12.84" pos="175.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-191.48" y="74.02" angle="90.00" type="CarA" speed="13.74" pos="139.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-227.77" y="74.02" angle="90.00" type="CarA" speed="13.19" pos="102.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-268.23" y="74.02" angle="90.00" type="CarA" speed="12.90" pos="62.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-302.11" y="74.02" angle="90.00" type="CarA" speed="8.78" pos="28.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-322.72" y="74.02" angle="90.00" type="CarA" speed="2.64" pos="7.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="229.05" y="77.32" angle="270.00" type="CarB" speed="13.18" pos="196.23" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="281.34" y="77.32" angle="270.00" type="CarB" speed="13.77" pos="143.94" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="340.95" y="77.32" angle="270.00" type="CarB" speed="13.18" pos="84.33" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="383.50" y="77.32" angle="270.00" type="CarB" speed="10.09" pos="41.78" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="413.38" y="77.32" angle="270.00" type="CarB" speed="2.71" pos="11.90" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.00">
+        <vehicle id="carflow12.0" x="-109.20" y="74.02" angle="90.00" type="CarA" speed="13.33" pos="221.32" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-142.22" y="74.02" angle="90.00" type="CarA" speed="13.17" pos="188.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-177.65" y="74.02" angle="90.00" type="CarA" speed="13.83" pos="152.87" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-214.46" y="74.02" angle="90.00" type="CarA" speed="13.30" pos="116.06" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-255.35" y="74.02" angle="90.00" type="CarA" speed="12.88" pos="75.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-291.80" y="74.02" angle="90.00" type="CarA" speed="10.31" pos="38.72" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-318.34" y="74.02" angle="90.00" type="CarA" speed="4.37" pos="12.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="215.32" y="77.32" angle="270.00" type="CarB" speed="13.74" pos="209.96" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="268.35" y="77.32" angle="270.00" type="CarB" speed="12.99" pos="156.93" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="327.41" y="77.32" angle="270.00" type="CarB" speed="13.55" pos="97.87" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="372.08" y="77.32" angle="270.00" type="CarB" speed="11.43" pos="53.20" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="409.11" y="77.32" angle="270.00" type="CarB" speed="4.28" pos="16.17" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.00">
+        <vehicle id="carflow12.0" x="-96.20" y="74.02" angle="90.00" type="CarA" speed="13.01" pos="234.32" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-128.75" y="74.02" angle="90.00" type="CarA" speed="13.47" pos="201.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-164.33" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="166.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-201.60" y="74.02" angle="90.00" type="CarA" speed="12.87" pos="128.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-242.35" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="88.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-279.34" y="74.02" angle="90.00" type="CarA" speed="12.45" pos="51.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-311.13" y="74.02" angle="90.00" type="CarA" speed="7.22" pos="19.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="202.28" y="77.32" angle="270.00" type="CarB" speed="13.03" pos="223.00" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="255.11" y="77.32" angle="270.00" type="CarB" speed="13.25" pos="170.17" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="314.34" y="77.32" angle="270.00" type="CarB" speed="13.07" pos="110.94" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="359.60" y="77.32" angle="270.00" type="CarB" speed="12.48" pos="65.68" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="403.38" y="77.32" angle="270.00" type="CarB" speed="5.73" pos="21.90" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.00">
+        <vehicle id="carflow12.0" x="-82.33" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="248.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-116.33" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="214.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-151.77" y="74.02" angle="90.00" type="CarA" speed="12.56" pos="178.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-188.43" y="74.02" angle="90.00" type="CarA" speed="13.17" pos="142.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-229.81" y="74.02" angle="90.00" type="CarA" speed="12.53" pos="100.71" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-265.70" y="74.02" angle="90.00" type="CarA" speed="13.64" pos="64.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-301.43" y="74.02" angle="90.00" type="CarA" speed="9.70" pos="29.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-323.62" y="74.02" angle="90.00" type="CarA" speed="1.80" pos="6.90" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="188.86" y="77.32" angle="270.00" type="CarB" speed="13.42" pos="236.42" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="241.55" y="77.32" angle="270.00" type="CarB" speed="13.55" pos="183.73" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="300.45" y="77.32" angle="270.00" type="CarB" speed="13.89" pos="124.83" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="346.37" y="77.32" angle="270.00" type="CarB" speed="13.23" pos="78.91" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="396.57" y="77.32" angle="270.00" type="CarB" speed="6.81" pos="28.71" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.00">
+        <vehicle id="carflow12.0" x="-68.46" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="262.06" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-103.17" y="74.02" angle="90.00" type="CarA" speed="13.16" pos="227.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-139.24" y="74.02" angle="90.00" type="CarA" speed="12.53" pos="191.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-175.16" y="74.02" angle="90.00" type="CarA" speed="13.27" pos="155.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-216.10" y="74.02" angle="90.00" type="CarA" speed="13.72" pos="114.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-253.09" y="74.02" angle="90.00" type="CarA" speed="12.61" pos="77.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-289.96" y="74.02" angle="90.00" type="CarA" speed="11.47" pos="40.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-319.40" y="74.02" angle="90.00" type="CarA" speed="4.21" pos="11.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="175.97" y="77.32" angle="270.00" type="CarB" speed="12.89" pos="249.31" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="228.15" y="77.32" angle="270.00" type="CarB" speed="13.40" pos="197.13" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="287.49" y="77.32" angle="270.00" type="CarB" speed="12.95" pos="137.79" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="333.26" y="77.32" angle="270.00" type="CarB" speed="13.11" pos="92.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="388.23" y="77.32" angle="270.00" type="CarB" speed="8.35" pos="37.05" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.00">
+        <vehicle id="carflow12.0" x="-55.83" y="74.02" angle="90.00" type="CarA" speed="12.62" pos="274.69" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-89.78" y="74.02" angle="90.00" type="CarA" speed="13.39" pos="240.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-125.66" y="74.02" angle="90.00" type="CarA" speed="13.58" pos="204.86" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-161.50" y="74.02" angle="90.00" type="CarA" speed="13.66" pos="169.02" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-202.88" y="74.02" angle="90.00" type="CarA" speed="13.22" pos="127.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-239.69" y="74.02" angle="90.00" type="CarA" speed="13.40" pos="90.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-277.15" y="74.02" angle="90.00" type="CarA" speed="12.81" pos="53.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-312.86" y="74.02" angle="90.00" type="CarA" speed="6.55" pos="17.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="162.45" y="77.32" angle="270.00" type="CarB" speed="13.52" pos="262.83" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="215.06" y="77.32" angle="270.00" type="CarB" speed="13.09" pos="210.22" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="273.76" y="77.32" angle="270.00" type="CarB" speed="13.73" pos="151.52" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="319.95" y="77.32" angle="270.00" type="CarB" speed="13.31" pos="105.33" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="378.01" y="77.32" angle="270.00" type="CarB" speed="10.22" pos="47.27" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.00">
+        <vehicle id="carflow12.0" x="-43.13" y="74.02" angle="90.00" type="CarA" speed="12.71" pos="287.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-76.06" y="74.02" angle="90.00" type="CarA" speed="13.72" pos="254.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-111.92" y="74.02" angle="90.00" type="CarA" speed="13.74" pos="218.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-147.95" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="182.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-189.33" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="141.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-226.09" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="104.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-264.64" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="65.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-303.79" y="74.02" angle="90.00" type="CarA" speed="9.06" pos="26.73" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-322.80" y="74.02" angle="90.00" type="CarA" speed="2.62" pos="7.72" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="149.41" y="77.32" angle="270.00" type="CarB" speed="13.04" pos="275.87" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="201.64" y="77.32" angle="270.00" type="CarB" speed="13.42" pos="223.64" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="260.06" y="77.32" angle="270.00" type="CarB" speed="13.70" pos="165.22" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="306.30" y="77.32" angle="270.00" type="CarB" speed="13.65" pos="118.98" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="366.74" y="77.32" angle="270.00" type="CarB" speed="11.28" pos="58.54" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="25.00">
+        <vehicle id="carflow12.0" x="-29.57" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="300.95" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-63.55" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="266.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-98.88" y="74.02" angle="90.00" type="CarA" speed="13.04" pos="231.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-135.25" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="195.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-176.04" y="74.02" angle="90.00" type="CarA" speed="13.29" pos="154.48" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-212.33" y="74.02" angle="90.00" type="CarA" speed="13.76" pos="118.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-251.60" y="74.02" angle="90.00" type="CarA" speed="13.04" pos="78.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-291.78" y="74.02" angle="90.00" type="CarA" speed="12.01" pos="38.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-318.30" y="74.02" angle="90.00" type="CarA" speed="4.50" pos="12.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="136.26" y="77.32" angle="270.00" type="CarB" speed="13.15" pos="289.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="188.42" y="77.32" angle="270.00" type="CarB" speed="13.22" pos="236.86" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="246.29" y="77.32" angle="270.00" type="CarB" speed="13.77" pos="178.99" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="292.87" y="77.32" angle="270.00" type="CarB" speed="13.43" pos="132.41" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="353.47" y="77.32" angle="270.00" type="CarB" speed="13.27" pos="71.81" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="26.00">
+        <vehicle id="carflow12.0" x="-16.56" y="74.02" angle="90.00" type="CarA" speed="13.01" pos="313.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-49.78" y="74.02" angle="90.00" type="CarA" speed="13.76" pos="280.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-85.64" y="74.02" angle="90.00" type="CarA" speed="13.24" pos="244.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-122.55" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="207.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-163.26" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="167.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-199.34" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="131.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-238.00" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="92.52" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-279.36" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="51.16" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-311.39" y="74.02" angle="90.00" type="CarA" speed="6.91" pos="19.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="122.48" y="77.32" angle="270.00" type="CarB" speed="13.78" pos="302.80" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="175.05" y="77.32" angle="270.00" type="CarB" speed="13.36" pos="250.23" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="232.41" y="77.32" angle="270.00" type="CarB" speed="13.88" pos="192.87" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="279.55" y="77.32" angle="270.00" type="CarB" speed="13.31" pos="145.73" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="339.81" y="77.32" angle="270.00" type="CarB" speed="13.66" pos="85.47" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="27.00">
+        <vehicle id="carflow12.0" x="-3.49" y="74.02" angle="90.00" type="CarA" speed="13.07" pos="327.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-37.31" y="74.02" angle="90.00" type="CarA" speed="12.48" pos="293.21" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-73.11" y="74.02" angle="90.00" type="CarA" speed="12.53" pos="257.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-108.99" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="221.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-150.74" y="74.02" angle="90.00" type="CarA" speed="12.52" pos="179.78" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-185.80" y="74.02" angle="90.00" type="CarA" speed="13.54" pos="144.72" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-224.39" y="74.02" angle="90.00" type="CarA" speed="13.61" pos="106.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-265.99" y="74.02" angle="90.00" type="CarA" speed="13.37" pos="64.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-301.88" y="74.02" angle="90.00" type="CarA" speed="9.51" pos="28.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-323.09" y="74.02" angle="90.00" type="CarA" speed="2.33" pos="7.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="108.89" y="77.32" angle="270.00" type="CarB" speed="13.59" pos="316.39" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="161.92" y="77.32" angle="270.00" type="CarB" speed="13.13" pos="263.36" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="219.35" y="77.32" angle="270.00" type="CarB" speed="13.06" pos="205.93" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="265.97" y="77.32" angle="270.00" type="CarB" speed="13.58" pos="159.31" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="326.86" y="77.32" angle="270.00" type="CarB" speed="12.95" pos="98.42" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="28.00">
+        <vehicle id="carflow12.0" x="9.85" y="74.02" angle="90.00" type="CarA" speed="13.34" pos="340.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-23.44" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="307.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-59.53" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="270.99" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-95.96" y="74.02" angle="90.00" type="CarA" speed="13.03" pos="234.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-136.93" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="193.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-171.96" y="74.02" angle="90.00" type="CarA" speed="13.84" pos="158.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-210.55" y="74.02" angle="90.00" type="CarA" speed="13.84" pos="119.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-253.48" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="77.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-289.67" y="74.02" angle="90.00" type="CarA" speed="12.21" pos="40.85" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-318.28" y="74.02" angle="90.00" type="CarA" speed="4.82" pos="12.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="95.28" y="77.32" angle="270.00" type="CarB" speed="13.61" pos="330.00" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="148.07" y="77.32" angle="270.00" type="CarB" speed="13.85" pos="277.21" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="206.26" y="77.32" angle="270.00" type="CarB" speed="13.10" pos="219.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="252.63" y="77.32" angle="270.00" type="CarB" speed="13.35" pos="172.65" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="313.55" y="77.32" angle="270.00" type="CarB" speed="13.31" pos="111.73" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="29.00">
+        <vehicle id="carflow12.0" x="22.98" y="74.02" angle="90.00" type="CarA" speed="13.13" pos="353.50" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="-10.26" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="320.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-46.70" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="283.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-83.27" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="247.25" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-123.76" y="74.02" angle="90.00" type="CarA" speed="13.17" pos="206.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-158.64" y="74.02" angle="90.00" type="CarA" speed="13.31" pos="171.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-197.17" y="74.02" angle="90.00" type="CarA" speed="13.38" pos="133.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-240.92" y="74.02" angle="90.00" type="CarA" speed="12.56" pos="89.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-276.22" y="74.02" angle="90.00" type="CarA" speed="13.45" pos="54.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-310.69" y="74.02" angle="90.00" type="CarA" speed="7.58" pos="19.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="81.61" y="77.32" angle="270.00" type="CarB" speed="13.67" pos="343.67" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="134.50" y="77.32" angle="270.00" type="CarB" speed="13.57" pos="290.78" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="193.02" y="77.32" angle="270.00" type="CarB" speed="13.24" pos="232.26" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="238.98" y="77.32" angle="270.00" type="CarB" speed="13.65" pos="186.30" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="300.66" y="77.32" angle="270.00" type="CarB" speed="12.90" pos="124.62" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="30.00">
+        <vehicle id="carflow12.0" x="35.53" y="74.02" angle="90.00" type="CarA" speed="12.55" pos="366.05" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="2.65" y="74.02" angle="90.00" type="CarA" speed="12.91" pos="333.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-323.62" y="74.02" angle="90.00" type="CarA" speed="1.80" pos="6.90" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-32.88" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="297.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-70.75" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="259.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-110.97" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="219.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-144.77" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="185.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-183.82" y="74.02" angle="90.00" type="CarA" speed="13.35" pos="146.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-228.41" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="102.11" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-263.49" y="74.02" angle="90.00" type="CarA" speed="12.73" pos="67.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-301.22" y="74.02" angle="90.00" type="CarA" speed="9.47" pos="29.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="67.75" y="77.32" angle="270.00" type="CarB" speed="13.86" pos="357.53" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="121.19" y="77.32" angle="270.00" type="CarB" speed="13.31" pos="304.09" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="179.60" y="77.32" angle="270.00" type="CarB" speed="13.42" pos="245.68" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="225.49" y="77.32" angle="270.00" type="CarB" speed="13.49" pos="199.79" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="286.95" y="77.32" angle="270.00" type="CarB" speed="13.71" pos="138.33" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="31.00">
+        <vehicle id="carflow12.0" x="48.63" y="74.02" angle="90.00" type="CarA" speed="13.10" pos="379.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="15.27" y="74.02" angle="90.00" type="CarA" speed="12.63" pos="345.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-320.25" y="74.02" angle="90.00" type="CarA" speed="3.37" pos="10.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-19.97" y="74.02" angle="90.00" type="CarA" speed="12.92" pos="310.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-58.25" y="74.02" angle="90.00" type="CarA" speed="12.50" pos="272.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-97.45" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="233.07" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-132.23" y="74.02" angle="90.00" type="CarA" speed="12.55" pos="198.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-170.69" y="74.02" angle="90.00" type="CarA" speed="13.13" pos="159.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-215.13" y="74.02" angle="90.00" type="CarA" speed="13.28" pos="115.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-250.05" y="74.02" angle="90.00" type="CarA" speed="13.44" pos="80.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-290.09" y="74.02" angle="90.00" type="CarA" speed="11.12" pos="40.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="54.55" y="77.32" angle="270.00" type="CarB" speed="13.20" pos="370.73" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="107.87" y="77.32" angle="270.00" type="CarB" speed="13.32" pos="317.41" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="166.04" y="77.32" angle="270.00" type="CarB" speed="13.56" pos="259.24" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="212.57" y="77.32" angle="270.00" type="CarB" speed="12.92" pos="212.71" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="273.97" y="77.32" angle="270.00" type="CarB" speed="12.98" pos="151.31" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="32.00">
+        <vehicle id="carflow12.0" x="61.33" y="74.02" angle="90.00" type="CarA" speed="12.71" pos="391.85" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="28.25" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="358.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-313.89" y="74.02" angle="90.00" type="CarA" speed="6.36" pos="16.63" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-325.42" y="74.02" angle="90.00" type="CarA" speed="0.00" pos="5.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="-6.10" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="324.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-45.00" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="285.52" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-84.99" y="74.02" angle="90.00" type="CarA" speed="12.45" pos="245.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-119.67" y="74.02" angle="90.00" type="CarA" speed="12.55" pos="210.85" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-157.28" y="74.02" angle="90.00" type="CarA" speed="13.41" pos="173.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-201.36" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="129.16" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-237.44" y="74.02" angle="90.00" type="CarA" speed="12.61" pos="93.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-276.73" y="74.02" angle="90.00" type="CarA" speed="13.37" pos="53.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="41.65" y="77.32" angle="270.00" type="CarB" speed="12.90" pos="383.63" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="94.84" y="77.32" angle="270.00" type="CarB" speed="13.03" pos="330.44" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="152.29" y="77.32" angle="270.00" type="CarB" speed="13.75" pos="272.99" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="198.74" y="77.32" angle="270.00" type="CarB" speed="13.83" pos="226.54" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="260.14" y="77.32" angle="270.00" type="CarB" speed="13.83" pos="165.14" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="33.00">
+        <vehicle id="carflow12.0" x="74.85" y="74.02" angle="90.00" type="CarA" speed="13.52" pos="405.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="42.08" y="74.02" angle="90.00" type="CarA" speed="13.83" pos="372.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-304.92" y="74.02" angle="90.00" type="CarA" speed="8.97" pos="25.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-323.44" y="74.02" angle="90.00" type="CarA" speed="1.98" pos="7.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="6.98" y="74.02" angle="90.00" type="CarA" speed="13.08" pos="337.50" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-32.14" y="74.02" angle="90.00" type="CarA" speed="12.87" pos="298.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-72.16" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="258.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-107.12" y="74.02" angle="90.00" type="CarA" speed="12.55" pos="223.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-143.72" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="186.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-188.61" y="74.02" angle="90.00" type="CarA" speed="12.75" pos="141.91" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-224.90" y="74.02" angle="90.00" type="CarA" speed="12.54" pos="105.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-263.73" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="66.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="28.14" y="77.32" angle="270.00" type="CarB" speed="13.51" pos="397.14" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="81.76" y="77.32" angle="270.00" type="CarB" speed="13.07" pos="343.52" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="138.55" y="77.32" angle="270.00" type="CarB" speed="13.74" pos="286.73" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="185.12" y="77.32" angle="270.00" type="CarB" speed="13.62" pos="240.16" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="246.76" y="77.32" angle="270.00" type="CarB" speed="13.38" pos="178.52" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="34.00">
+        <vehicle id="carflow12.0" x="88.57" y="74.02" angle="90.00" type="CarA" speed="13.72" pos="419.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="55.84" y="74.02" angle="90.00" type="CarA" speed="13.76" pos="386.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-293.75" y="74.02" angle="90.00" type="CarA" speed="11.17" pos="36.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-318.64" y="74.02" angle="90.00" type="CarA" speed="4.80" pos="11.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="20.74" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="351.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-18.55" y="74.02" angle="90.00" type="CarA" speed="13.59" pos="311.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-59.52" y="74.02" angle="90.00" type="CarA" speed="12.63" pos="271.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-93.86" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="236.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-131.18" y="74.02" angle="90.00" type="CarA" speed="12.54" pos="199.34" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-176.18" y="74.02" angle="90.00" type="CarA" speed="12.43" pos="154.34" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-211.10" y="74.02" angle="90.00" type="CarA" speed="13.80" pos="119.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-251.16" y="74.02" angle="90.00" type="CarA" speed="12.57" pos="79.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="14.77" y="77.32" angle="270.00" type="CarB" speed="13.37" pos="410.51" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="68.23" y="77.32" angle="270.00" type="CarB" speed="13.53" pos="357.05" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="125.51" y="77.32" angle="270.00" type="CarB" speed="13.04" pos="299.77" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="171.50" y="77.32" angle="270.00" type="CarB" speed="13.62" pos="253.78" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="233.30" y="77.32" angle="270.00" type="CarB" speed="13.46" pos="191.98" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="35.00">
+        <vehicle id="carflow12.0" x="102.10" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="432.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="69.39" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="399.91" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-279.86" y="74.02" angle="90.00" type="CarA" speed="13.88" pos="50.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-311.64" y="74.02" angle="90.00" type="CarA" speed="6.99" pos="18.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="33.23" y="74.02" angle="90.00" type="CarA" speed="12.49" pos="363.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="-6.12" y="74.02" angle="90.00" type="CarA" speed="12.43" pos="324.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-46.54" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="283.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-81.26" y="74.02" angle="90.00" type="CarA" speed="12.61" pos="249.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-118.78" y="74.02" angle="90.00" type="CarA" speed="12.40" pos="211.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-163.25" y="74.02" angle="90.00" type="CarA" speed="12.94" pos="167.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-197.99" y="74.02" angle="90.00" type="CarA" speed="13.11" pos="132.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-238.20" y="74.02" angle="90.00" type="CarA" speed="12.97" pos="92.32" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="1.75" y="77.32" angle="270.00" type="CarB" speed="13.02" pos="423.53" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="55.07" y="77.32" angle="270.00" type="CarB" speed="13.16" pos="370.21" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="111.95" y="77.32" angle="270.00" type="CarB" speed="13.56" pos="313.33" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="158.46" y="77.32" angle="270.00" type="CarB" speed="13.04" pos="266.82" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="219.56" y="77.32" angle="270.00" type="CarB" speed="13.74" pos="205.72" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="36.00">
+        <vehicle id="carflow12.0" x="115.14" y="74.02" angle="90.00" type="CarA" speed="13.03" pos="445.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="83.26" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="413.78" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-266.94" y="74.02" angle="90.00" type="CarA" speed="12.92" pos="63.58" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-302.66" y="74.02" angle="90.00" type="CarA" speed="8.98" pos="27.86" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="46.94" y="74.02" angle="90.00" type="CarA" speed="13.71" pos="377.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="6.63" y="74.02" angle="90.00" type="CarA" speed="12.75" pos="337.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-33.87" y="74.02" angle="90.00" type="CarA" speed="12.67" pos="296.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-67.43" y="74.02" angle="90.00" type="CarA" speed="13.83" pos="263.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-105.10" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="225.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-149.44" y="74.02" angle="90.00" type="CarA" speed="13.81" pos="181.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-185.55" y="74.02" angle="90.00" type="CarA" speed="12.43" pos="144.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-225.73" y="74.02" angle="90.00" type="CarA" speed="12.46" pos="104.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-11.39" y="77.32" angle="270.00" type="CarB" speed="13.14" pos="436.67" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="41.71" y="77.32" angle="270.00" type="CarB" speed="13.36" pos="383.57" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="98.27" y="77.32" angle="270.00" type="CarB" speed="13.68" pos="327.01" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="145.35" y="77.32" angle="270.00" type="CarB" speed="13.10" pos="279.93" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="206.48" y="77.32" angle="270.00" type="CarB" speed="13.08" pos="218.80" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="37.00">
+        <vehicle id="carflow12.0" x="128.39" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="458.91" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="96.51" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="427.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-253.44" y="74.02" angle="90.00" type="CarA" speed="13.50" pos="77.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-290.86" y="74.02" angle="90.00" type="CarA" speed="11.80" pos="39.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="60.05" y="74.02" angle="90.00" type="CarA" speed="13.11" pos="390.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="19.74" y="74.02" angle="90.00" type="CarA" speed="13.11" pos="350.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-20.79" y="74.02" angle="90.00" type="CarA" speed="13.07" pos="309.73" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-53.76" y="74.02" angle="90.00" type="CarA" speed="13.66" pos="276.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-91.84" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="238.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-136.38" y="74.02" angle="90.00" type="CarA" speed="13.06" pos="194.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-173.15" y="74.02" angle="90.00" type="CarA" speed="12.40" pos="157.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-211.97" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="118.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-24.35" y="77.32" angle="270.00" type="CarB" speed="12.96" pos="449.63" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="28.76" y="77.32" angle="270.00" type="CarB" speed="12.96" pos="396.52" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="84.51" y="77.32" angle="270.00" type="CarB" speed="13.76" pos="340.77" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="132.08" y="77.32" angle="270.00" type="CarB" speed="13.28" pos="293.20" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="192.77" y="77.32" angle="270.00" type="CarB" speed="13.72" pos="232.51" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="38.00">
+        <vehicle id="carflow12.0" x="142.18" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="472.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="109.96" y="74.02" angle="90.00" type="CarA" speed="13.45" pos="440.48" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-240.95" y="74.02" angle="90.00" type="CarA" speed="12.49" pos="89.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-277.56" y="74.02" angle="90.00" type="CarA" speed="13.31" pos="52.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="72.73" y="74.02" angle="90.00" type="CarA" speed="12.67" pos="403.25" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="33.46" y="74.02" angle="90.00" type="CarA" speed="13.73" pos="363.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="-8.20" y="74.02" angle="90.00" type="CarA" speed="12.60" pos="322.32" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-40.30" y="74.02" angle="90.00" type="CarA" speed="13.46" pos="290.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-78.24" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="252.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-122.86" y="74.02" angle="90.00" type="CarA" speed="13.52" pos="207.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-160.70" y="74.02" angle="90.00" type="CarA" speed="12.46" pos="169.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-199.38" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="131.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-37.53" y="77.32" angle="270.00" type="CarB" speed="13.18" pos="462.81" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="15.20" y="77.32" angle="270.00" type="CarB" speed="13.56" pos="410.08" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="71.54" y="77.32" angle="270.00" type="CarB" speed="12.97" pos="353.74" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="119.06" y="77.32" angle="270.00" type="CarB" speed="13.02" pos="306.22" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="179.54" y="77.32" angle="270.00" type="CarB" speed="13.22" pos="245.74" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="39.00">
+        <vehicle id="carflow12.0" x="155.44" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="485.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="122.46" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="452.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-227.41" y="74.02" angle="90.00" type="CarA" speed="13.54" pos="103.11" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-263.91" y="74.02" angle="90.00" type="CarA" speed="13.65" pos="66.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="85.77" y="74.02" angle="90.00" type="CarA" speed="13.05" pos="416.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="45.91" y="74.02" angle="90.00" type="CarA" speed="12.44" pos="376.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="5.57" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="336.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-26.70" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="303.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-64.78" y="74.02" angle="90.00" type="CarA" speed="13.45" pos="265.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-110.14" y="74.02" angle="90.00" type="CarA" speed="12.72" pos="220.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-147.44" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="183.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-186.96" y="74.02" angle="90.00" type="CarA" speed="12.41" pos="143.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-50.97" y="77.32" angle="270.00" type="CarB" speed="13.45" pos="476.25" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="1.90" y="77.32" angle="270.00" type="CarB" speed="13.30" pos="423.38" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="57.96" y="77.32" angle="270.00" type="CarB" speed="13.58" pos="367.32" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="105.66" y="77.32" angle="270.00" type="CarB" speed="13.40" pos="319.62" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="165.88" y="77.32" angle="270.00" type="CarB" speed="13.66" pos="259.40" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="40.00">
+        <vehicle id="carflow12.0" x="168.12" y="74.02" angle="90.00" type="CarA" speed="12.68" pos="498.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="135.46" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="465.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-213.55" y="74.02" angle="90.00" type="CarA" speed="13.85" pos="116.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-251.27" y="74.02" angle="90.00" type="CarA" speed="12.64" pos="79.25" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="98.88" y="74.02" angle="90.00" type="CarA" speed="13.11" pos="429.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="59.20" y="74.02" angle="90.00" type="CarA" speed="13.29" pos="389.72" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="18.16" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="348.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-14.11" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="316.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-51.40" y="74.02" angle="90.00" type="CarA" speed="13.38" pos="279.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-97.35" y="74.02" angle="90.00" type="CarA" speed="12.79" pos="233.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-134.31" y="74.02" angle="90.00" type="CarA" speed="13.13" pos="196.21" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-173.37" y="74.02" angle="90.00" type="CarA" speed="13.59" pos="157.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-64.35" y="77.32" angle="270.00" type="CarB" speed="13.38" pos="489.63" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-11.40" y="77.32" angle="270.00" type="CarB" speed="13.29" pos="436.68" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="44.53" y="77.32" angle="270.00" type="CarB" speed="13.44" pos="380.75" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="92.61" y="77.32" angle="270.00" type="CarB" speed="13.05" pos="332.67" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="152.27" y="77.32" angle="270.00" type="CarB" speed="13.62" pos="273.01" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="41.00">
+        <vehicle id="carflow12.0" x="181.73" y="74.02" angle="90.00" type="CarA" speed="13.61" pos="512.25" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="148.51" y="74.02" angle="90.00" type="CarA" speed="13.05" pos="479.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-200.89" y="74.02" angle="90.00" type="CarA" speed="12.66" pos="129.63" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-238.69" y="74.02" angle="90.00" type="CarA" speed="12.58" pos="91.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="111.81" y="74.02" angle="90.00" type="CarA" speed="12.93" pos="442.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="72.56" y="74.02" angle="90.00" type="CarA" speed="13.36" pos="403.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="31.02" y="74.02" angle="90.00" type="CarA" speed="12.85" pos="361.54" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="-0.43" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="330.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-38.38" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="292.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-84.52" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="246.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-121.37" y="74.02" angle="90.00" type="CarA" speed="12.94" pos="209.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-159.75" y="74.02" angle="90.00" type="CarA" speed="13.62" pos="170.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-78.17" y="77.32" angle="270.00" type="CarB" speed="13.82" pos="503.45" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-25.16" y="77.32" angle="270.00" type="CarB" speed="13.76" pos="450.44" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="31.31" y="77.32" angle="270.00" type="CarB" speed="13.22" pos="393.97" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="79.64" y="77.32" angle="270.00" type="CarB" speed="12.97" pos="345.64" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="139.34" y="77.32" angle="270.00" type="CarB" speed="12.93" pos="285.94" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="42.00">
+        <vehicle id="carflow12.0" x="194.40" y="74.02" angle="90.00" type="CarA" speed="12.66" pos="524.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="161.35" y="74.02" angle="90.00" type="CarA" speed="12.84" pos="491.87" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-188.37" y="74.02" angle="90.00" type="CarA" speed="12.53" pos="142.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-224.85" y="74.02" angle="90.00" type="CarA" speed="13.84" pos="105.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="124.28" y="74.02" angle="90.00" type="CarA" speed="12.47" pos="454.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="86.42" y="74.02" angle="90.00" type="CarA" speed="13.86" pos="416.94" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="43.98" y="74.02" angle="90.00" type="CarA" speed="12.96" pos="374.50" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="12.16" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="342.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-25.71" y="74.02" angle="90.00" type="CarA" speed="12.67" pos="304.81" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-72.10" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="258.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-108.30" y="74.02" angle="90.00" type="CarA" speed="13.07" pos="222.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-146.42" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="184.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-91.36" y="77.32" angle="270.00" type="CarB" speed="13.20" pos="516.64" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-38.84" y="77.32" angle="270.00" type="CarB" speed="13.69" pos="464.12" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="18.40" y="77.32" angle="270.00" type="CarB" speed="12.91" pos="406.88" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="65.90" y="77.32" angle="270.00" type="CarB" speed="13.73" pos="359.38" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="126.27" y="77.32" angle="270.00" type="CarB" speed="13.06" pos="299.01" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="43.00">
+        <vehicle id="carflow12.0" x="207.29" y="74.02" angle="90.00" type="CarA" speed="12.89" pos="537.81" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="173.92" y="74.02" angle="90.00" type="CarA" speed="12.57" pos="504.44" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-174.68" y="74.02" angle="90.00" type="CarA" speed="13.69" pos="155.84" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-212.03" y="74.02" angle="90.00" type="CarA" speed="12.82" pos="118.49" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="137.93" y="74.02" angle="90.00" type="CarA" speed="13.65" pos="468.45" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="99.54" y="74.02" angle="90.00" type="CarA" speed="13.12" pos="430.06" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="57.27" y="74.02" angle="90.00" type="CarA" speed="13.29" pos="387.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="25.07" y="74.02" angle="90.00" type="CarA" speed="12.92" pos="355.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="-13.16" y="74.02" angle="90.00" type="CarA" speed="12.55" pos="317.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-58.26" y="74.02" angle="90.00" type="CarA" speed="13.84" pos="272.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-94.45" y="74.02" angle="90.00" type="CarA" speed="13.86" pos="236.07" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-132.73" y="74.02" angle="90.00" type="CarA" speed="13.70" pos="197.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-104.50" y="77.32" angle="270.00" type="CarB" speed="13.13" pos="529.78" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-51.74" y="77.32" angle="270.00" type="CarB" speed="12.90" pos="477.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="5.26" y="77.32" angle="270.00" type="CarB" speed="13.14" pos="420.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="52.48" y="77.32" angle="270.00" type="CarB" speed="13.42" pos="372.80" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="113.00" y="77.32" angle="270.00" type="CarB" speed="13.27" pos="312.28" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="44.00">
+        <vehicle id="carflow12.0" x="221.02" y="74.02" angle="90.00" type="CarA" speed="13.73" pos="551.54" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="187.25" y="74.02" angle="90.00" type="CarA" speed="13.33" pos="517.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-161.39" y="74.02" angle="90.00" type="CarA" speed="13.29" pos="169.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-198.36" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="132.16" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="150.76" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="481.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="113.08" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="443.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="70.95" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="401.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="38.09" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="368.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="0.71" y="74.02" angle="90.00" type="CarA" speed="13.87" pos="331.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-45.43" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="285.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-81.23" y="74.02" angle="90.00" type="CarA" speed="13.21" pos="249.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-119.99" y="74.02" angle="90.00" type="CarA" speed="12.74" pos="210.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-117.94" y="77.32" angle="270.00" type="CarB" speed="13.44" pos="543.22" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-65.03" y="77.32" angle="270.00" type="CarB" speed="13.29" pos="490.31" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-8.36" y="77.32" angle="270.00" type="CarB" speed="13.62" pos="433.64" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="38.81" y="77.32" angle="270.00" type="CarB" speed="13.67" pos="386.47" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="99.84" y="77.32" angle="270.00" type="CarB" speed="13.16" pos="325.44" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="45.00">
+        <vehicle id="carflow12.0" x="233.82" y="74.02" angle="90.00" type="CarA" speed="12.81" pos="564.34" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="200.99" y="74.02" angle="90.00" type="CarA" speed="13.74" pos="531.51" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-148.29" y="74.02" angle="90.00" type="CarA" speed="13.10" pos="182.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-185.29" y="74.02" angle="90.00" type="CarA" speed="13.07" pos="145.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="164.43" y="74.02" angle="90.00" type="CarA" speed="13.67" pos="494.95" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="125.52" y="74.02" angle="90.00" type="CarA" speed="12.44" pos="456.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="84.52" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="415.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="50.94" y="74.02" angle="90.00" type="CarA" speed="12.84" pos="381.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="14.28" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="344.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-32.27" y="74.02" angle="90.00" type="CarA" speed="13.16" pos="298.25" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-68.82" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="261.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-106.45" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="224.07" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-131.08" y="77.32" angle="270.00" type="CarB" speed="13.14" pos="556.36" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-78.74" y="77.32" angle="270.00" type="CarB" speed="13.72" pos="504.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-21.70" y="77.32" angle="270.00" type="CarB" speed="13.34" pos="446.98" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="25.49" y="77.32" angle="270.00" type="CarB" speed="13.32" pos="399.79" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="86.64" y="77.32" angle="270.00" type="CarB" speed="13.20" pos="338.64" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="46.00">
+        <vehicle id="carflow12.0" x="246.42" y="74.02" angle="90.00" type="CarA" speed="12.60" pos="576.94" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="214.76" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="545.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-135.50" y="74.02" angle="90.00" type="CarA" speed="12.79" pos="195.02" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-171.86" y="74.02" angle="90.00" type="CarA" speed="13.43" pos="158.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="177.69" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="508.21" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="138.54" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="469.06" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="97.91" y="74.02" angle="90.00" type="CarA" speed="13.39" pos="428.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="64.56" y="74.02" angle="90.00" type="CarA" speed="13.62" pos="395.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="27.48" y="74.02" angle="90.00" type="CarA" speed="13.19" pos="358.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-19.23" y="74.02" angle="90.00" type="CarA" speed="13.03" pos="311.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-55.87" y="74.02" angle="90.00" type="CarA" speed="12.95" pos="274.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-92.78" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="237.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-144.03" y="77.32" angle="270.00" type="CarB" speed="12.96" pos="569.31" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-92.23" y="77.32" angle="270.00" type="CarB" speed="13.49" pos="517.51" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-34.85" y="77.32" angle="270.00" type="CarB" speed="13.15" pos="460.13" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="12.51" y="77.32" angle="270.00" type="CarB" speed="12.98" pos="412.77" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="73.26" y="77.32" angle="270.00" type="CarB" speed="13.38" pos="352.02" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="47.00">
+        <vehicle id="carflow12.0" x="259.11" y="74.02" angle="90.00" type="CarA" speed="12.69" pos="589.63" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="227.94" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="558.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-122.18" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="208.34" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-159.44" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="171.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="191.11" y="74.02" angle="90.00" type="CarA" speed="13.42" pos="521.63" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="151.71" y="74.02" angle="90.00" type="CarA" speed="13.17" pos="482.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="111.23" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="441.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="77.91" y="74.02" angle="90.00" type="CarA" speed="13.35" pos="408.43" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="41.28" y="74.02" angle="90.00" type="CarA" speed="13.81" pos="371.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="-6.48" y="74.02" angle="90.00" type="CarA" speed="12.75" pos="324.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-43.42" y="74.02" angle="90.00" type="CarA" speed="12.45" pos="287.10" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-79.73" y="74.02" angle="90.00" type="CarA" speed="13.05" pos="250.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-157.40" y="77.32" angle="270.00" type="CarB" speed="13.37" pos="582.68" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-106.10" y="77.32" angle="270.00" type="CarB" speed="13.87" pos="531.38" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-47.99" y="77.32" angle="270.00" type="CarB" speed="13.15" pos="473.27" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-0.87" y="77.32" angle="270.00" type="CarB" speed="13.38" pos="426.15" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="60.23" y="77.32" angle="270.00" type="CarB" speed="13.02" pos="365.05" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="48.00">
+        <vehicle id="carflow12.0" x="271.85" y="74.02" angle="90.00" type="CarA" speed="12.74" pos="602.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="241.38" y="74.02" angle="90.00" type="CarA" speed="13.44" pos="571.90" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-109.78" y="74.02" angle="90.00" type="CarA" speed="12.40" pos="220.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-146.60" y="74.02" angle="90.00" type="CarA" speed="12.84" pos="183.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="204.56" y="74.02" angle="90.00" type="CarA" speed="13.45" pos="535.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="164.97" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="495.49" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="123.92" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="454.44" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="91.38" y="74.02" angle="90.00" type="CarA" speed="13.47" pos="421.90" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="54.81" y="74.02" angle="90.00" type="CarA" speed="13.52" pos="385.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="7.24" y="74.02" angle="90.00" type="CarA" speed="13.72" pos="337.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-30.92" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="299.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-67.21" y="74.02" angle="90.00" type="CarA" speed="12.53" pos="263.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-170.34" y="77.32" angle="270.00" type="CarB" speed="12.95" pos="595.62" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-119.00" y="77.32" angle="270.00" type="CarB" speed="12.90" pos="544.28" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-60.98" y="77.32" angle="270.00" type="CarB" speed="12.98" pos="486.26" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-13.96" y="77.32" angle="270.00" type="CarB" speed="13.09" pos="439.24" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="46.90" y="77.32" angle="270.00" type="CarB" speed="13.33" pos="378.38" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="49.00">
+        <vehicle id="carflow12.0" x="285.24" y="74.02" angle="90.00" type="CarA" speed="13.39" pos="615.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="253.85" y="74.02" angle="90.00" type="CarA" speed="12.47" pos="584.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-96.21" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="234.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-132.86" y="74.02" angle="90.00" type="CarA" speed="13.74" pos="197.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="217.70" y="74.02" angle="90.00" type="CarA" speed="13.14" pos="548.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="177.42" y="74.02" angle="90.00" type="CarA" speed="12.45" pos="507.94" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="137.78" y="74.02" angle="90.00" type="CarA" speed="13.85" pos="468.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="103.98" y="74.02" angle="90.00" type="CarA" speed="12.60" pos="434.50" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="68.60" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="399.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="21.10" y="74.02" angle="90.00" type="CarA" speed="13.86" pos="351.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-17.22" y="74.02" angle="90.00" type="CarA" speed="13.70" pos="313.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-54.73" y="74.02" angle="90.00" type="CarA" speed="12.47" pos="275.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-183.66" y="77.32" angle="270.00" type="CarB" speed="13.32" pos="608.94" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-132.53" y="77.32" angle="270.00" type="CarB" speed="13.54" pos="557.81" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-74.84" y="77.32" angle="270.00" type="CarB" speed="13.87" pos="500.12" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-27.18" y="77.32" angle="270.00" type="CarB" speed="13.22" pos="452.46" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="33.39" y="77.32" angle="270.00" type="CarB" speed="13.52" pos="391.89" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="50.00">
+        <vehicle id="carflow12.0" x="298.72" y="74.02" angle="90.00" type="CarA" speed="13.49" pos="629.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="267.09" y="74.02" angle="90.00" type="CarA" speed="13.24" pos="597.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-83.23" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="247.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-119.69" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="210.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="230.41" y="74.02" angle="90.00" type="CarA" speed="12.71" pos="560.93" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="189.89" y="74.02" angle="90.00" type="CarA" speed="12.47" pos="520.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="150.48" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="481.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="117.55" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="448.07" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="81.46" y="74.02" angle="90.00" type="CarA" speed="12.87" pos="411.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="34.90" y="74.02" angle="90.00" type="CarA" speed="13.81" pos="365.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="-3.69" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="326.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-42.17" y="74.02" angle="90.00" type="CarA" speed="12.56" pos="288.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-196.74" y="77.32" angle="270.00" type="CarB" speed="13.08" pos="622.02" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-145.77" y="77.32" angle="270.00" type="CarB" speed="13.24" pos="571.05" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-87.91" y="77.32" angle="270.00" type="CarB" speed="13.06" pos="513.19" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-40.76" y="77.32" angle="270.00" type="CarB" speed="13.58" pos="466.04" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="19.87" y="77.32" angle="270.00" type="CarB" speed="13.51" pos="405.41" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="51.00">
+        <vehicle id="carflow12.0" x="311.15" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="641.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="279.67" y="74.02" angle="90.00" type="CarA" speed="12.58" pos="610.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-70.73" y="74.02" angle="90.00" type="CarA" speed="12.50" pos="259.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-106.13" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="224.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="243.97" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="574.49" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="202.62" y="74.02" angle="90.00" type="CarA" speed="12.73" pos="533.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="163.76" y="74.02" angle="90.00" type="CarA" speed="13.27" pos="494.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="131.23" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="461.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="94.13" y="74.02" angle="90.00" type="CarA" speed="12.67" pos="424.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="47.70" y="74.02" angle="90.00" type="CarA" speed="12.80" pos="378.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="9.29" y="74.02" angle="90.00" type="CarA" speed="12.99" pos="339.81" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-29.60" y="74.02" angle="90.00" type="CarA" speed="12.57" pos="300.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-209.91" y="77.32" angle="270.00" type="CarB" speed="13.16" pos="635.19" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-159.29" y="77.32" angle="270.00" type="CarB" speed="13.52" pos="584.57" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-101.63" y="77.32" angle="270.00" type="CarB" speed="13.73" pos="526.91" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-53.67" y="77.32" angle="270.00" type="CarB" speed="12.91" pos="478.95" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="6.51" y="77.32" angle="270.00" type="CarB" speed="13.36" pos="418.77" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="52.00">
+        <vehicle id="carflow12.0" x="324.49" y="74.02" angle="90.00" type="CarA" speed="13.35" pos="655.01" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="293.07" y="74.02" angle="90.00" type="CarA" speed="13.39" pos="623.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-57.64" y="74.02" angle="90.00" type="CarA" speed="13.09" pos="272.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-92.48" y="74.02" angle="90.00" type="CarA" speed="13.65" pos="238.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="256.83" y="74.02" angle="90.00" type="CarA" speed="12.86" pos="587.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="215.42" y="74.02" angle="90.00" type="CarA" speed="12.81" pos="545.94" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="177.45" y="74.02" angle="90.00" type="CarA" speed="13.69" pos="507.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="145.01" y="74.02" angle="90.00" type="CarA" speed="13.78" pos="475.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="106.81" y="74.02" angle="90.00" type="CarA" speed="12.68" pos="437.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="60.70" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="391.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="22.67" y="74.02" angle="90.00" type="CarA" speed="13.37" pos="353.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-16.95" y="74.02" angle="90.00" type="CarA" speed="12.65" pos="313.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-223.71" y="77.32" angle="270.00" type="CarB" speed="13.81" pos="648.99" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-172.93" y="77.32" angle="270.00" type="CarB" speed="13.64" pos="598.21" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-115.12" y="77.32" angle="270.00" type="CarB" speed="13.49" pos="540.40" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-67.52" y="77.32" angle="270.00" type="CarB" speed="13.85" pos="492.80" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-6.39" y="77.32" angle="270.00" type="CarB" speed="12.91" pos="431.67" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="53.00">
+        <vehicle id="carflow12.0" x="337.76" y="74.02" angle="90.00" type="CarA" speed="13.27" pos="668.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="306.15" y="74.02" angle="90.00" type="CarA" speed="13.09" pos="636.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-43.95" y="74.02" angle="90.00" type="CarA" speed="13.69" pos="286.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-79.75" y="74.02" angle="90.00" type="CarA" speed="12.73" pos="250.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="269.42" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="599.94" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="229.22" y="74.02" angle="90.00" type="CarA" speed="13.80" pos="559.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="190.07" y="74.02" angle="90.00" type="CarA" speed="12.62" pos="520.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="157.60" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="488.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="119.30" y="74.02" angle="90.00" type="CarA" speed="12.49" pos="449.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="73.98" y="74.02" angle="90.00" type="CarA" speed="13.28" pos="404.50" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="35.27" y="74.02" angle="90.00" type="CarA" speed="12.61" pos="365.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="-4.08" y="74.02" angle="90.00" type="CarA" speed="12.86" pos="326.44" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-237.20" y="77.32" angle="270.00" type="CarB" speed="13.48" pos="662.48" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-186.02" y="77.32" angle="270.00" type="CarB" speed="13.09" pos="611.30" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-128.67" y="77.32" angle="270.00" type="CarB" speed="13.54" pos="553.95" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-81.34" y="77.32" angle="270.00" type="CarB" speed="13.81" pos="506.62" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-19.66" y="77.32" angle="270.00" type="CarB" speed="13.27" pos="444.94" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="54.00">
+        <vehicle id="carflow12.0" x="351.39" y="74.02" angle="90.00" type="CarA" speed="13.63" pos="681.91" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="319.16" y="74.02" angle="90.00" type="CarA" speed="13.01" pos="649.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-30.25" y="74.02" angle="90.00" type="CarA" speed="13.71" pos="300.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-67.04" y="74.02" angle="90.00" type="CarA" speed="12.71" pos="263.48" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="282.59" y="74.02" angle="90.00" type="CarA" speed="13.17" pos="613.11" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="242.75" y="74.02" angle="90.00" type="CarA" speed="13.52" pos="573.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="203.86" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="534.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="170.39" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="500.91" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="132.87" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="463.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="87.33" y="74.02" angle="90.00" type="CarA" speed="13.35" pos="417.85" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="48.50" y="74.02" angle="90.00" type="CarA" speed="13.22" pos="379.02" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="9.04" y="74.02" angle="90.00" type="CarA" speed="13.12" pos="339.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-250.11" y="77.32" angle="270.00" type="CarB" speed="12.92" pos="675.39" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-198.96" y="77.32" angle="270.00" type="CarB" speed="12.94" pos="624.24" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-142.00" y="77.32" angle="270.00" type="CarB" speed="13.34" pos="567.28" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-94.72" y="77.32" angle="270.00" type="CarB" speed="13.38" pos="520.00" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-33.03" y="77.32" angle="270.00" type="CarB" speed="13.37" pos="458.31" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="55.00">
+        <vehicle id="carflow12.0" x="364.94" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="695.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="332.66" y="74.02" angle="90.00" type="CarA" speed="13.50" pos="663.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-16.59" y="74.02" angle="90.00" type="CarA" speed="13.65" pos="313.93" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-53.22" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="277.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="295.64" y="74.02" angle="90.00" type="CarA" speed="13.05" pos="626.16" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="256.05" y="74.02" angle="90.00" type="CarA" speed="13.30" pos="586.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="217.01" y="74.02" angle="90.00" type="CarA" speed="13.15" pos="547.53" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="183.15" y="74.02" angle="90.00" type="CarA" speed="12.76" pos="513.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="145.80" y="74.02" angle="90.00" type="CarA" speed="12.94" pos="476.32" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="100.45" y="74.02" angle="90.00" type="CarA" speed="13.12" pos="430.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="61.76" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="392.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="21.45" y="74.02" angle="90.00" type="CarA" speed="12.41" pos="351.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-263.23" y="77.32" angle="270.00" type="CarB" speed="13.11" pos="688.51" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-212.37" y="77.32" angle="270.00" type="CarB" speed="13.41" pos="637.65" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-155.28" y="77.32" angle="270.00" type="CarB" speed="13.27" pos="580.56" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-107.99" y="77.32" angle="270.00" type="CarB" speed="13.27" pos="533.27" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-46.56" y="77.32" angle="270.00" type="CarB" speed="13.53" pos="471.84" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="56.00">
+        <vehicle id="carflow12.0" x="378.57" y="74.02" angle="90.00" type="CarA" speed="13.63" pos="709.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="345.30" y="74.02" angle="90.00" type="CarA" speed="12.64" pos="675.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="-4.11" y="74.02" angle="90.00" type="CarA" speed="12.48" pos="326.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-39.43" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="291.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="308.86" y="74.02" angle="90.00" type="CarA" speed="13.22" pos="639.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="268.69" y="74.02" angle="90.00" type="CarA" speed="12.64" pos="599.21" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="230.77" y="74.02" angle="90.00" type="CarA" speed="13.76" pos="561.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="196.33" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="526.85" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="159.11" y="74.02" angle="90.00" type="CarA" speed="13.31" pos="489.63" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="113.07" y="74.02" angle="90.00" type="CarA" speed="12.63" pos="443.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="74.79" y="74.02" angle="90.00" type="CarA" speed="13.04" pos="405.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="34.62" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="365.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-276.67" y="77.32" angle="270.00" type="CarB" speed="13.44" pos="701.95" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-225.49" y="77.32" angle="270.00" type="CarB" speed="13.12" pos="650.77" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-168.99" y="77.32" angle="270.00" type="CarB" speed="13.71" pos="594.27" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-121.35" y="77.32" angle="270.00" type="CarB" speed="13.36" pos="546.63" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-59.51" y="77.32" angle="270.00" type="CarB" speed="12.95" pos="484.79" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="57.00">
+        <vehicle id="carflow12.0" x="392.20" y="74.02" angle="90.00" type="CarA" speed="13.63" pos="722.72" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="359.07" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="689.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="9.52" y="74.02" angle="90.00" type="CarA" speed="13.63" pos="340.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-26.44" y="74.02" angle="90.00" type="CarA" speed="12.99" pos="304.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="321.51" y="74.02" angle="90.00" type="CarA" speed="12.66" pos="652.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="281.13" y="74.02" angle="90.00" type="CarA" speed="12.44" pos="611.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="243.95" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="574.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="209.69" y="74.02" angle="90.00" type="CarA" speed="13.36" pos="540.21" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="172.90" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="503.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="126.61" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="457.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="88.07" y="74.02" angle="90.00" type="CarA" speed="13.28" pos="418.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="47.87" y="74.02" angle="90.00" type="CarA" speed="13.24" pos="378.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-290.55" y="77.32" angle="270.00" type="CarB" speed="13.88" pos="715.83" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-238.46" y="77.32" angle="270.00" type="CarB" speed="12.97" pos="663.74" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-182.10" y="77.32" angle="270.00" type="CarB" speed="13.11" pos="607.38" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-134.97" y="77.32" angle="270.00" type="CarB" speed="13.61" pos="560.25" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-73.06" y="77.32" angle="270.00" type="CarB" speed="13.54" pos="498.34" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="58.00">
+        <vehicle id="carflow12.0" x="405.09" y="74.02" angle="90.00" type="CarA" speed="12.89" pos="735.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="372.23" y="74.02" angle="90.00" type="CarA" speed="13.16" pos="702.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="23.13" y="74.02" angle="90.00" type="CarA" speed="13.61" pos="353.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-13.75" y="74.02" angle="90.00" type="CarA" speed="12.69" pos="316.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="334.76" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="665.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="294.94" y="74.02" angle="90.00" type="CarA" speed="13.81" pos="625.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="257.47" y="74.02" angle="90.00" type="CarA" speed="13.52" pos="587.99" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="223.41" y="74.02" angle="90.00" type="CarA" speed="13.72" pos="553.93" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="186.37" y="74.02" angle="90.00" type="CarA" speed="13.47" pos="516.89" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="139.08" y="74.02" angle="90.00" type="CarA" speed="12.47" pos="469.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="100.63" y="74.02" angle="90.00" type="CarA" speed="12.56" pos="431.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="60.79" y="74.02" angle="90.00" type="CarA" speed="12.92" pos="391.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-303.62" y="77.32" angle="270.00" type="CarB" speed="13.07" pos="728.90" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-251.48" y="77.32" angle="270.00" type="CarB" speed="13.02" pos="676.76" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-195.60" y="77.32" angle="270.00" type="CarB" speed="13.50" pos="620.88" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-148.35" y="77.32" angle="270.00" type="CarB" speed="13.38" pos="573.63" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-86.42" y="77.32" angle="270.00" type="CarB" speed="13.37" pos="511.70" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="59.00">
+        <vehicle id="carflow12.0" x="418.45" y="74.02" angle="90.00" type="CarA" speed="13.36" pos="748.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.1" x="385.67" y="74.02" angle="90.00" type="CarA" speed="13.44" pos="716.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="36.88" y="74.02" angle="90.00" type="CarA" speed="13.75" pos="367.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="-0.90" y="74.02" angle="90.00" type="CarA" speed="12.85" pos="329.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="347.27" y="74.02" angle="90.00" type="CarA" speed="12.50" pos="677.79" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="308.74" y="74.02" angle="90.00" type="CarA" speed="13.80" pos="639.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="270.13" y="74.02" angle="90.00" type="CarA" speed="12.65" pos="600.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="237.09" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="567.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="199.62" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="530.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="151.85" y="74.02" angle="90.00" type="CarA" speed="12.77" pos="482.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="113.46" y="74.02" angle="90.00" type="CarA" speed="12.84" pos="443.98" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="73.29" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="403.81" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.0" x="-316.99" y="77.32" angle="270.00" type="CarB" speed="13.37" pos="742.27" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-264.93" y="77.32" angle="270.00" type="CarB" speed="13.46" pos="690.21" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-208.70" y="77.32" angle="270.00" type="CarB" speed="13.09" pos="633.98" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-161.93" y="77.32" angle="270.00" type="CarB" speed="13.59" pos="587.21" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-99.42" y="77.32" angle="270.00" type="CarB" speed="13.00" pos="524.70" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="60.00">
+        <vehicle id="carflow12.1" x="399.12" y="74.02" angle="90.00" type="CarA" speed="13.45" pos="729.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="50.08" y="74.02" angle="90.00" type="CarA" speed="13.20" pos="380.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="11.77" y="74.02" angle="90.00" type="CarA" speed="12.67" pos="342.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="359.99" y="74.02" angle="90.00" type="CarA" speed="12.72" pos="690.51" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="321.72" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="652.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="282.85" y="74.02" angle="90.00" type="CarA" speed="12.72" pos="613.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="250.72" y="74.02" angle="90.00" type="CarA" speed="13.63" pos="581.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="213.24" y="74.02" angle="90.00" type="CarA" speed="13.62" pos="543.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="165.49" y="74.02" angle="90.00" type="CarA" speed="13.64" pos="496.01" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="126.48" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="457.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="86.65" y="74.02" angle="90.00" type="CarA" speed="13.36" pos="417.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-278.54" y="77.32" angle="270.00" type="CarB" speed="13.61" pos="703.82" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-222.51" y="77.32" angle="270.00" type="CarB" speed="13.81" pos="647.79" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-175.72" y="77.32" angle="270.00" type="CarB" speed="13.79" pos="601.00" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-112.54" y="77.32" angle="270.00" type="CarB" speed="13.12" pos="537.82" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="61.00">
+        <vehicle id="carflow12.1" x="412.24" y="74.02" angle="90.00" type="CarA" speed="13.12" pos="742.76" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.10" x="63.96" y="74.02" angle="90.00" type="CarA" speed="13.88" pos="394.48" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="24.95" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="355.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="372.76" y="74.02" angle="90.00" type="CarA" speed="12.77" pos="703.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="334.44" y="74.02" angle="90.00" type="CarA" speed="12.71" pos="664.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="295.29" y="74.02" angle="90.00" type="CarA" speed="12.45" pos="625.81" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="263.44" y="74.02" angle="90.00" type="CarA" speed="12.72" pos="593.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="227.12" y="74.02" angle="90.00" type="CarA" speed="13.88" pos="557.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="179.10" y="74.02" angle="90.00" type="CarA" speed="13.61" pos="509.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="139.70" y="74.02" angle="90.00" type="CarA" speed="13.22" pos="470.22" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="100.05" y="74.02" angle="90.00" type="CarA" speed="13.40" pos="430.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-291.75" y="77.32" angle="270.00" type="CarB" speed="13.21" pos="717.03" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-235.54" y="77.32" angle="270.00" type="CarB" speed="13.03" pos="660.82" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-189.16" y="77.32" angle="270.00" type="CarB" speed="13.44" pos="614.44" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-126.26" y="77.32" angle="270.00" type="CarB" speed="13.72" pos="551.54" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="62.00">
+        <vehicle id="carflow12.10" x="77.40" y="74.02" angle="90.00" type="CarA" speed="13.44" pos="407.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="37.95" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="368.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="386.06" y="74.02" angle="90.00" type="CarA" speed="13.30" pos="716.58" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="347.44" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="677.96" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="308.06" y="74.02" angle="90.00" type="CarA" speed="12.77" pos="638.58" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="277.13" y="74.02" angle="90.00" type="CarA" speed="13.69" pos="607.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="239.77" y="74.02" angle="90.00" type="CarA" speed="12.64" pos="570.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="192.65" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="523.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="153.47" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="483.99" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="112.48" y="74.02" angle="90.00" type="CarA" speed="12.43" pos="443.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-304.86" y="77.32" angle="270.00" type="CarB" speed="13.11" pos="730.14" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-249.42" y="77.32" angle="270.00" type="CarB" speed="13.88" pos="674.70" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-202.87" y="77.32" angle="270.00" type="CarB" speed="13.71" pos="628.15" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-140.05" y="77.32" angle="270.00" type="CarB" speed="13.79" pos="565.33" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="63.00">
+        <vehicle id="carflow12.10" x="90.13" y="74.02" angle="90.00" type="CarA" speed="12.73" pos="420.65" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="50.95" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="381.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="399.18" y="74.02" angle="90.00" type="CarA" speed="13.12" pos="729.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="360.36" y="74.02" angle="90.00" type="CarA" speed="12.92" pos="690.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="320.89" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="651.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="289.73" y="74.02" angle="90.00" type="CarA" speed="12.60" pos="620.25" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="252.96" y="74.02" angle="90.00" type="CarA" speed="13.20" pos="583.48" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="205.17" y="74.02" angle="90.00" type="CarA" speed="12.53" pos="535.69" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="167.35" y="74.02" angle="90.00" type="CarA" speed="13.88" pos="497.87" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="125.31" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="455.83" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.1" x="-318.20" y="77.32" angle="270.00" type="CarB" speed="13.33" pos="743.48" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-262.65" y="77.32" angle="270.00" type="CarB" speed="13.22" pos="687.93" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-216.13" y="77.32" angle="270.00" type="CarB" speed="13.27" pos="641.41" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-153.93" y="77.32" angle="270.00" type="CarB" speed="13.88" pos="579.21" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="64.00">
+        <vehicle id="carflow12.10" x="103.06" y="74.02" angle="90.00" type="CarA" speed="12.93" pos="433.58" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="63.72" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="394.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.2" x="412.78" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="743.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="373.20" y="74.02" angle="90.00" type="CarA" speed="12.85" pos="703.72" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="333.80" y="74.02" angle="90.00" type="CarA" speed="12.91" pos="664.32" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="302.99" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="633.51" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="265.57" y="74.02" angle="90.00" type="CarA" speed="12.61" pos="596.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="218.04" y="74.02" angle="90.00" type="CarA" speed="12.87" pos="548.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="180.60" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="511.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="138.25" y="74.02" angle="90.00" type="CarA" speed="12.94" pos="468.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-276.35" y="77.32" angle="270.00" type="CarB" speed="13.71" pos="701.63" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-229.44" y="77.32" angle="270.00" type="CarB" speed="13.31" pos="654.72" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-167.62" y="77.32" angle="270.00" type="CarB" speed="13.69" pos="592.90" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="65.00">
+        <vehicle id="carflow12.10" x="116.52" y="74.02" angle="90.00" type="CarA" speed="13.46" pos="447.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="77.05" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="407.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="386.63" y="74.02" angle="90.00" type="CarA" speed="13.43" pos="717.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="347.06" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="677.58" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="316.25" y="74.02" angle="90.00" type="CarA" speed="13.26" pos="646.77" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="279.03" y="74.02" angle="90.00" type="CarA" speed="13.45" pos="609.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="231.03" y="74.02" angle="90.00" type="CarA" speed="12.99" pos="561.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="193.03" y="74.02" angle="90.00" type="CarA" speed="12.43" pos="523.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="151.54" y="74.02" angle="90.00" type="CarA" speed="13.30" pos="482.06" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-289.44" y="77.32" angle="270.00" type="CarB" speed="13.09" pos="714.72" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-242.77" y="77.32" angle="270.00" type="CarB" speed="13.33" pos="668.05" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-181.49" y="77.32" angle="270.00" type="CarB" speed="13.87" pos="606.77" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="66.00">
+        <vehicle id="carflow12.10" x="130.18" y="74.02" angle="90.00" type="CarA" speed="13.66" pos="460.70" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="89.97" y="74.02" angle="90.00" type="CarA" speed="12.92" pos="420.49" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="400.10" y="74.02" angle="90.00" type="CarA" speed="13.47" pos="730.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="359.88" y="74.02" angle="90.00" type="CarA" speed="12.82" pos="690.40" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="328.71" y="74.02" angle="90.00" type="CarA" speed="12.46" pos="659.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="292.72" y="74.02" angle="90.00" type="CarA" speed="13.70" pos="623.24" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="244.26" y="74.02" angle="90.00" type="CarA" speed="13.23" pos="574.78" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="205.83" y="74.02" angle="90.00" type="CarA" speed="12.80" pos="536.35" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="164.59" y="74.02" angle="90.00" type="CarA" speed="13.04" pos="495.11" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-303.29" y="77.32" angle="270.00" type="CarB" speed="13.85" pos="728.57" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-255.69" y="77.32" angle="270.00" type="CarB" speed="12.91" pos="680.97" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-195.06" y="77.32" angle="270.00" type="CarB" speed="13.57" pos="620.34" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="67.00">
+        <vehicle id="carflow12.10" x="143.34" y="74.02" angle="90.00" type="CarA" speed="13.16" pos="473.86" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="102.76" y="74.02" angle="90.00" type="CarA" speed="12.79" pos="433.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.3" x="412.62" y="74.02" angle="90.00" type="CarA" speed="12.52" pos="743.14" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="373.67" y="74.02" angle="90.00" type="CarA" speed="13.79" pos="704.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="342.03" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="672.55" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="305.48" y="74.02" angle="90.00" type="CarA" speed="12.76" pos="636.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="257.23" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="587.75" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="218.85" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="549.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="178.28" y="74.02" angle="90.00" type="CarA" speed="13.69" pos="508.80" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.2" x="-316.76" y="77.32" angle="270.00" type="CarB" speed="13.47" pos="742.04" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-268.99" y="77.32" angle="270.00" type="CarB" speed="13.31" pos="694.27" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-208.83" y="77.32" angle="270.00" type="CarB" speed="13.77" pos="634.11" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="68.00">
+        <vehicle id="carflow12.10" x="156.66" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="487.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="115.90" y="74.02" angle="90.00" type="CarA" speed="13.14" pos="446.42" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="386.35" y="74.02" angle="90.00" type="CarA" speed="12.68" pos="716.87" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="354.81" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="685.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="318.57" y="74.02" angle="90.00" type="CarA" speed="13.09" pos="649.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="270.14" y="74.02" angle="90.00" type="CarA" speed="12.91" pos="600.66" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="231.71" y="74.02" angle="90.00" type="CarA" speed="12.85" pos="562.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="191.57" y="74.02" angle="90.00" type="CarA" speed="13.29" pos="522.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-282.01" y="77.32" angle="270.00" type="CarB" speed="13.02" pos="707.29" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-222.60" y="77.32" angle="270.00" type="CarB" speed="13.77" pos="647.88" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="69.00">
+        <vehicle id="carflow12.10" x="169.76" y="74.02" angle="90.00" type="CarA" speed="13.10" pos="500.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="128.95" y="74.02" angle="90.00" type="CarA" speed="13.04" pos="459.47" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="399.67" y="74.02" angle="90.00" type="CarA" speed="13.32" pos="730.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="368.39" y="74.02" angle="90.00" type="CarA" speed="13.58" pos="698.91" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="331.81" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="662.33" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="283.84" y="74.02" angle="90.00" type="CarA" speed="13.70" pos="614.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="245.52" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="576.04" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="204.61" y="74.02" angle="90.00" type="CarA" speed="13.04" pos="535.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-294.91" y="77.32" angle="270.00" type="CarB" speed="12.91" pos="720.19" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-236.13" y="77.32" angle="270.00" type="CarB" speed="13.53" pos="661.41" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="70.00">
+        <vehicle id="carflow12.10" x="182.66" y="74.02" angle="90.00" type="CarA" speed="12.90" pos="513.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="142.76" y="74.02" angle="90.00" type="CarA" speed="13.81" pos="473.28" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.4" x="413.05" y="74.02" angle="90.00" type="CarA" speed="13.38" pos="743.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="381.66" y="74.02" angle="90.00" type="CarA" speed="13.27" pos="712.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="344.49" y="74.02" angle="90.00" type="CarA" speed="12.68" pos="675.01" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="297.08" y="74.02" angle="90.00" type="CarA" speed="13.24" pos="627.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="258.99" y="74.02" angle="90.00" type="CarA" speed="13.46" pos="589.51" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="218.07" y="74.02" angle="90.00" type="CarA" speed="13.46" pos="548.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-307.91" y="77.32" angle="270.00" type="CarB" speed="13.00" pos="733.19" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-249.11" y="77.32" angle="270.00" type="CarB" speed="12.98" pos="674.39" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="71.00">
+        <vehicle id="carflow12.10" x="196.37" y="74.02" angle="90.00" type="CarA" speed="13.71" pos="526.89" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="156.43" y="74.02" angle="90.00" type="CarA" speed="13.68" pos="486.95" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="395.54" y="74.02" angle="90.00" type="CarA" speed="13.88" pos="726.06" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="358.05" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="688.57" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="310.86" y="74.02" angle="90.00" type="CarA" speed="13.78" pos="641.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="272.75" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="603.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="230.77" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="561.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.3" x="-321.48" y="77.32" angle="270.00" type="CarB" speed="13.57" pos="746.76" lane="edge21_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-262.44" y="77.32" angle="270.00" type="CarB" speed="13.33" pos="687.72" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="72.00">
+        <vehicle id="carflow12.10" x="208.97" y="74.02" angle="90.00" type="CarA" speed="12.59" pos="539.49" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="169.51" y="74.02" angle="90.00" type="CarA" speed="13.08" pos="500.03" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="409.40" y="74.02" angle="90.00" type="CarA" speed="13.86" pos="739.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="370.87" y="74.02" angle="90.00" type="CarA" speed="12.82" pos="701.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="323.48" y="74.02" angle="90.00" type="CarA" speed="12.63" pos="654.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="285.26" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="615.78" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="244.07" y="74.02" angle="90.00" type="CarA" speed="13.30" pos="574.59" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-275.94" y="77.32" angle="270.00" type="CarB" speed="13.51" pos="701.22" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="73.00">
+        <vehicle id="carflow12.10" x="222.50" y="74.02" angle="90.00" type="CarA" speed="13.53" pos="553.02" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="182.15" y="74.02" angle="90.00" type="CarA" speed="12.63" pos="512.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.5" x="421.94" y="74.02" angle="90.00" type="CarA" speed="12.54" pos="752.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="383.56" y="74.02" angle="90.00" type="CarA" speed="12.69" pos="714.08" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="337.16" y="74.02" angle="90.00" type="CarA" speed="13.67" pos="667.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="298.55" y="74.02" angle="90.00" type="CarA" speed="13.28" pos="629.07" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="256.75" y="74.02" angle="90.00" type="CarA" speed="12.68" pos="587.27" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-288.98" y="77.32" angle="270.00" type="CarB" speed="13.04" pos="714.26" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="74.00">
+        <vehicle id="carflow12.10" x="234.92" y="74.02" angle="90.00" type="CarA" speed="12.42" pos="565.44" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="195.84" y="74.02" angle="90.00" type="CarA" speed="13.69" pos="526.36" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="397.15" y="74.02" angle="90.00" type="CarA" speed="13.59" pos="727.67" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="350.36" y="74.02" angle="90.00" type="CarA" speed="13.21" pos="680.88" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="311.34" y="74.02" angle="90.00" type="CarA" speed="12.79" pos="641.86" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="270.61" y="74.02" angle="90.00" type="CarA" speed="13.86" pos="601.13" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-302.24" y="77.32" angle="270.00" type="CarB" speed="13.26" pos="727.52" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="75.00">
+        <vehicle id="carflow12.10" x="248.08" y="74.02" angle="90.00" type="CarA" speed="13.16" pos="578.60" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="209.09" y="74.02" angle="90.00" type="CarA" speed="13.25" pos="539.61" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="410.17" y="74.02" angle="90.00" type="CarA" speed="13.02" pos="740.69" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="363.71" y="74.02" angle="90.00" type="CarA" speed="13.35" pos="694.23" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="324.94" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="655.46" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="283.74" y="74.02" angle="90.00" type="CarA" speed="13.13" pos="614.26" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-315.48" y="77.32" angle="270.00" type="CarB" speed="13.24" pos="740.76" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="76.00">
+        <vehicle id="carflow12.10" x="261.79" y="74.02" angle="90.00" type="CarA" speed="13.71" pos="592.31" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="222.85" y="74.02" angle="90.00" type="CarA" speed="13.76" pos="553.37" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.6" x="422.89" y="74.02" angle="90.00" type="CarA" speed="12.72" pos="753.41" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="377.53" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="708.05" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="338.12" y="74.02" angle="90.00" type="CarA" speed="13.18" pos="668.64" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="296.30" y="74.02" angle="90.00" type="CarA" speed="12.56" pos="626.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow21.4" x="-328.47" y="77.32" angle="270.00" type="CarB" speed="12.99" pos="753.75" lane="edge21_0" slope="0.00"/>
+    </timestep>
+    <timestep time="77.00">
+        <vehicle id="carflow12.10" x="274.78" y="74.02" angle="90.00" type="CarA" speed="12.99" pos="605.30" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="236.67" y="74.02" angle="90.00" type="CarA" speed="13.82" pos="567.19" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="390.37" y="74.02" angle="90.00" type="CarA" speed="12.83" pos="720.89" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="350.99" y="74.02" angle="90.00" type="CarA" speed="12.87" pos="681.51" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="308.94" y="74.02" angle="90.00" type="CarA" speed="12.64" pos="639.46" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="78.00">
+        <vehicle id="carflow12.10" x="287.77" y="74.02" angle="90.00" type="CarA" speed="12.99" pos="618.29" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="249.16" y="74.02" angle="90.00" type="CarA" speed="12.48" pos="579.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="402.87" y="74.02" angle="90.00" type="CarA" speed="12.51" pos="733.39" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="364.86" y="74.02" angle="90.00" type="CarA" speed="13.86" pos="695.38" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="322.81" y="74.02" angle="90.00" type="CarA" speed="13.88" pos="653.33" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="79.00">
+        <vehicle id="carflow12.10" x="300.53" y="74.02" angle="90.00" type="CarA" speed="12.76" pos="631.05" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="262.93" y="74.02" angle="90.00" type="CarA" speed="13.77" pos="593.45" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.7" x="416.68" y="74.02" angle="90.00" type="CarA" speed="13.81" pos="747.20" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="377.63" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="708.15" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="335.77" y="74.02" angle="90.00" type="CarA" speed="12.96" pos="666.29" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="80.00">
+        <vehicle id="carflow12.10" x="313.45" y="74.02" angle="90.00" type="CarA" speed="12.91" pos="643.97" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="276.30" y="74.02" angle="90.00" type="CarA" speed="13.38" pos="606.82" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="390.04" y="74.02" angle="90.00" type="CarA" speed="12.41" pos="720.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="348.47" y="74.02" angle="90.00" type="CarA" speed="12.70" pos="678.99" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="81.00">
+        <vehicle id="carflow12.10" x="327.16" y="74.02" angle="90.00" type="CarA" speed="13.72" pos="657.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="289.59" y="74.02" angle="90.00" type="CarA" speed="13.29" pos="620.11" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="403.60" y="74.02" angle="90.00" type="CarA" speed="13.56" pos="734.12" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="361.53" y="74.02" angle="90.00" type="CarA" speed="13.06" pos="692.05" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="82.00">
+        <vehicle id="carflow12.10" x="339.92" y="74.02" angle="90.00" type="CarA" speed="12.76" pos="670.44" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="303.22" y="74.02" angle="90.00" type="CarA" speed="13.62" pos="633.74" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.8" x="416.48" y="74.02" angle="90.00" type="CarA" speed="12.88" pos="747.00" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="375.16" y="74.02" angle="90.00" type="CarA" speed="13.63" pos="705.68" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="83.00">
+        <vehicle id="carflow12.10" x="353.16" y="74.02" angle="90.00" type="CarA" speed="13.24" pos="683.68" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="316.00" y="74.02" angle="90.00" type="CarA" speed="12.78" pos="646.52" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="388.56" y="74.02" angle="90.00" type="CarA" speed="13.39" pos="719.08" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="84.00">
+        <vehicle id="carflow12.10" x="365.66" y="74.02" angle="90.00" type="CarA" speed="12.50" pos="696.18" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="329.10" y="74.02" angle="90.00" type="CarA" speed="13.10" pos="659.62" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="402.03" y="74.02" angle="90.00" type="CarA" speed="13.47" pos="732.55" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="85.00">
+        <vehicle id="carflow12.10" x="378.40" y="74.02" angle="90.00" type="CarA" speed="12.74" pos="708.92" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="342.65" y="74.02" angle="90.00" type="CarA" speed="13.55" pos="673.17" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.9" x="415.54" y="74.02" angle="90.00" type="CarA" speed="13.51" pos="746.06" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="86.00">
+        <vehicle id="carflow12.10" x="391.97" y="74.02" angle="90.00" type="CarA" speed="13.57" pos="722.49" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="355.81" y="74.02" angle="90.00" type="CarA" speed="13.16" pos="686.33" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="87.00">
+        <vehicle id="carflow12.10" x="405.57" y="74.02" angle="90.00" type="CarA" speed="13.60" pos="736.09" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="369.46" y="74.02" angle="90.00" type="CarA" speed="13.65" pos="699.98" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="88.00">
+        <vehicle id="carflow12.10" x="419.04" y="74.02" angle="90.00" type="CarA" speed="13.48" pos="749.56" lane="edge12_0" slope="0.00"/>
+        <vehicle id="carflow12.11" x="382.44" y="74.02" angle="90.00" type="CarA" speed="12.98" pos="712.96" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="89.00">
+        <vehicle id="carflow12.11" x="395.44" y="74.02" angle="90.00" type="CarA" speed="13.00" pos="725.96" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="90.00">
+        <vehicle id="carflow12.11" x="407.93" y="74.02" angle="90.00" type="CarA" speed="12.49" pos="738.45" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="91.00">
+        <vehicle id="carflow12.11" x="420.38" y="74.02" angle="90.00" type="CarA" speed="12.45" pos="750.90" lane="edge12_0" slope="0.00"/>
+    </timestep>
+    <timestep time="92.00"/>
+    <timestep time="93.00"/>
+    <timestep time="94.00"/>
+    <timestep time="95.00"/>
+    <timestep time="96.00"/>
+    <timestep time="97.00"/>
+    <timestep time="98.00"/>
+    <timestep time="99.00"/>
+</fcd-export>

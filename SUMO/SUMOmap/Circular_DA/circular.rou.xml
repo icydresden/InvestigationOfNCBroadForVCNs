@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.5" />
+  <route id="route01" edges="gneE1 gneE2 gneE3 gneE4 gneE5 gneE6 gneE7 gneE8 gneE9 gneE10 gneE11 gneE12"/>
+  <route id="route02" edges="gneE-1 gneE-12 gneE-11 gneE-10 gneE-9 gneE-8 gneE-7 gneE-6 gneE-5 gneE-4 gneE-3 gneE-2"/>
+  <flow id="carflow12" type="CarB" beg="0" end="0" route="route01" number="15" />
+  <flow id="carflow21" type="CarA" beg="0" end="0" route="route02" number="5" color="1,0,0"/>
+  <!--vehicle depart="540" id="veh0" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="540" id="veh1" route="route01" type="CarB" />
+  <vehicle depart="540" id="veh2" route="route01" type="CarC" color="1,0,0" />
+  <vehicle depart="540" id="veh3" route="route01" type="CarD" /-->
+</routes>

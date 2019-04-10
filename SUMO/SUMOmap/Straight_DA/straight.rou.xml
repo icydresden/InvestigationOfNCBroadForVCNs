@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.5" />
+  <route id="route01" edges="edge12"/>
+  <route id="route02" edges="edge21"/>
+  <flow id="carflow12" type="CarA" beg="0" end="0" route="route01" number="12" color="1,0,0"/>
+  <flow id="carflow21" type="CarB" beg="0" end="0" route="route02" number="5" />
+  <!--vehicle depart="540" id="veh0" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="540" id="veh1" route="route01" type="CarB" />
+  <vehicle depart="540" id="veh2" route="route01" type="CarC" color="1,0,0" />
+  <vehicle depart="540" id="veh3" route="route01" type="CarD" /-->
+</routes>

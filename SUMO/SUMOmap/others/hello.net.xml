@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mi 09 Mai 2018 16:11:24 CEST by Netedit Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/lab/Desktop/SUMOmap/hello.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/lab/Desktop/SUMOmap/hello.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+        <rectangular-lane-cut value="false"/>
+        <walkingareas value="false"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="250.00,0.00" convBoundary="0.00,-26.71,154.58,40.64" origBoundary="-250.00,0.00,260.00,0.00" projParameter="!"/>
+
+    <edge id=":3_0" function="internal">
+        <lane id=":3_0_0" index="0" speed="13.90" length="3.87" shape="57.77,-26.49 57.70,-27.66 58.04,-28.34 58.77,-28.55 59.91,-28.28"/>
+    </edge>
+
+    <edge id="1to2" from="1" to="2" priority="-1">
+        <lane id="1to2_0" index="0" speed="13.90" length="75.95" shape="0.81,-1.44 67.02,35.77"/>
+    </edge>
+    <edge id="2to3" from="2" to="3" priority="-1">
+        <lane id="2to3_0" index="0" speed="13.90" length="61.67" shape="69.37,34.08 57.77,-26.49"/>
+    </edge>
+    <edge id="3to4" from="3" to="4" priority="-1">
+        <lane id="3to4_0" index="0" speed="13.90" length="101.91" shape="59.91,-28.28 155.17,7.94"/>
+    </edge>
+
+    <junction id="1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.02,-0.04 1.59,-2.83"/>
+    <junction id="2" type="dead_end" x="72.31" y="40.64" incLanes="1to2_0" intLanes="" shape="70.94,33.78 67.80,34.38 66.23,37.17"/>
+    <junction id="3" type="priority" x="59.41" y="-26.71" incLanes="2to3_0" intLanes=":3_0_0" shape="56.20,-26.19 59.34,-26.79 60.48,-29.78">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="4" type="dead_end" x="154.58" y="9.48" incLanes="3to4_0" intLanes="" shape="155.74,6.44 154.60,9.43"/>
+
+    <connection from="2to3" to="3to4" fromLane="0" toLane="0" pass="1" via=":3_0_0" dir="l" state="M"/>
+
+    <connection from=":3_0" to="3to4" fromLane="0" toLane="0" dir="l" state="M"/>
+
+</net>

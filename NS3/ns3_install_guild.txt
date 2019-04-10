@@ -1,0 +1,101 @@
+1)
+$ sudo apt-get install gcc g++ python python-dev mercurial python-setuptools git qt5-default python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev ipython openmpi-bin openmpi-common openmpi-doc libopenmpi-dev autoconf cvs bzr unrar gdb valgrind uncrustify doxygen graphviz imagemagick texlive texlive-extra-utils texlive-latex-extra texlive-font-utils texlive-lang-portuguese dvipng python-sphinx dia gsl-bin libgsl2 libgsl-dev flex bison libfl-dev tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev cmake libc6-dev libc6-dev-i386 libclang-dev python-pip python3-pip 
+
+python-gnome2-desktop-dev
+
+$ sudo pip install cxxfilt
+$ sudo apt-get install libgtk2.0-0 libgtk2.0-dev vtun lxc libboost-signals-dev libboost-filesystem-dev
+
+
+approach1
+$ cd ~
+$ mkdir Soft
+$ cd Soft
+$ hg clone http://code.nsnam.org/ns-3-allinone
+
+##########################
+destination directory: ns-3-allinone
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 61 changesets with 94 changes to 7 files
+updating to branch default
+7 files updated, 0 files merged, 0 files removed, 0 files unresolved
+##########################
+
+$ ls
+##########################
+build.py  constants.py  dist.py  download.py  README  util.py
+##########################
+
+$ ./download.py -n ns-3-dev
+$ ls
+##########################
+bake      constants.py   dist.py      netanim   pybindgen  util.py
+build.py  constants.pyc  download.py  ns-3-dev  README     util.pyc
+
+$ ./build.py
+##########################
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        visualizer                wave                      
+wifi                      wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+
+Leaving directory `./ns-3-dev'
+###########################
+$ ./waf clean
+$ ./waf configure --enable-tests
+$ ./waf configure --enable-examples
+$ ./waf build
+$
+
+approach2
+$ sudo apt install mercurial
+$ cd ~
+$ hg clone http://code.nsnam.org/bake
+
+$ export BAKE_HOME=`pwd`/bake 
+$ export PATH=$PATH:$BAKE_HOME
+$ export PYTHONPATH=$PYTHONPATH:$BAKE_HOME
+
+$ cd bake
+$ python3 bake.py check
+$ python3 bake.py configure -e ns-3-dev
+$ python3 bake.py show
+$ python3 bake.py deploy
+
+2) 
+$ sudo apt install mercurial
+
+$ hg clone http://code.nsnam.org/ns-3-dev/
+
+3) 
+install netanim
+$ sudo apt install synaptic
+$ cd ~
+$ hg clone http://code.nsnam.org/netanim
+$ cd netanim
+$ make clean
+$ qmake NetAnim.pro
+$ make
+
+
+//run lte-simple.cc
+//./waf --run --command-template="%s --ns3::ConfigStore::Filename=scratch/lteParametres.txt --ns3::ConfigStore::Mode=Save --ns3::ConfigStore::FileFormat=RawText" --run scratch/simple-lte --vis
+
+
